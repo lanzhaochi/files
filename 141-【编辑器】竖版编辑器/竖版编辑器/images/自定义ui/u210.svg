@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>文本</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编辑器" transform="translate(-762.000000, -79.000000)" fill="#333333">
+            <g id="工具tab" transform="translate(0.000000, 64.000000)">
+                <g id="按钮2" transform="translate(521.000000, 14.000000)">
+                    <g id="文本" transform="translate(241.000000, 1.000000)">
+                        <path d="M13,2 L22.9993054,2 C23.5525308,2 24,1.55228475 24,1 C24,0.443864822 23.5519738,0 22.9993054,0 L1.00069463,0 C0.44746922,0 0,0.44771525 0,1 C0,1.55613518 0.448026248,2 1.00069463,2 L11,2 L11,27.0034652 C11,27.5601869 11.4477153,28 12,28 C12.5561352,28 13,27.5538362 13,27.0034652 L13,2 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
