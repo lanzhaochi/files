@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 this is test1 branch.
+=======
+this is branch test2.
+>>>>>>> test2
