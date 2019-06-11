@@ -1,0 +1,319 @@
+.markdown_html{
+	font-family: Helvetica,arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.markdown_html ul{
+	list-style-type: disc;
+}
+
+.markdown_html ul li, .markdown_html ol li{
+    color: #666;
+}
+
+.markdown_html caption, .markdown_html figcaption, .markdown_html summary, .markdown_html legend {
+    line-height: 1.2;
+    margin: 0 0 0.35em;
+    padding: 0;
+}
+.markdown_html h1, .markdown_html h2, .markdown_html h3, .markdown_html h4, .markdown_html h5, .markdown_html h6 {
+    clear: left;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+}
+.markdown_html [dir="rtl"] h1, .markdown_html [dir="rtl"] h2, .markdown_html [dir="rtl"] h3, .markdown_html [dir="rtl"] h4, .markdown_html [dir="rtl"] h5, .markdown_html [dir="rtl"] h6 {
+    clear: right;
+}
+.markdown_html h1 {
+    font-size: 2em;
+    margin: 0 0 0.444em;
+    display: block;
+}
+.markdown_html h2 {
+    font-size: 1.5em;
+    margin: 0 0 0.666em;
+}
+.markdown_html h3 {
+    font-size: 1.125em;
+    margin: 0 0 0.888em;
+}
+.markdown_html h4 {
+    font-size: 1em;
+    margin: 0 0 1em;
+}
+.markdown_html h5 {
+    font-size: 0.875em;
+    margin: 0 0 1.1428em;
+}
+.markdown_html h6 {
+    font-size: 0.75em;
+    margin: 0 0 1.333em;
+}
+.markdown_html p, .markdown_html ul, .markdown_html ol, .markdown_html dl, .markdown_html pre, .markdown_html table, .markdown_html hr, .markdown_html blockquote, .markdown_html figure, .markdown_html details, .markdown_html fieldset, .markdown_html address {
+    margin: 0 0 1.4em;
+    padding: 0;
+}
+.markdown_html div {
+    margin: 0;
+    padding: 0;
+}
+.markdown_html ul, .markdown_html ol {
+    padding: 0 0 0 1em;
+}
+.markdown_html [dir="rtl"] ul, .markdown_html [dir="rtl"] ol {
+    padding: 0 1.5em 0 0;
+}
+.markdown_html li, .markdown_html dd {
+    margin: 0 0 0 1.5em;
+    padding: 0;
+}
+.markdown_html [dir="rtl"] li, .markdown_html [dir="rtl"] dd {
+    margin: 0 1.5em 0 0;
+}
+.markdown_html dt {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.markdown_html li ul, .markdown_html li ol, .markdown_html li dl, .markdown_html dl ul, .markdown_html dl ol, .markdown_html dl dl {
+    margin-bottom: 0;
+    padding: 0;
+}
+.markdown_html li li {
+    font-size: 100%;
+}
+.markdown_html ol {
+    list-style: decimal outside none;
+}
+.markdown_html ol ol {
+    list-style-type: lower-alpha;
+}
+.markdown_html ol ol ol {
+    list-style-type: upper-roman;
+}
+.markdown_html ol ol ol ol {
+    list-style-type: upper-alpha;
+}
+.markdown_html ol ol ol ol ol {
+    list-style-type: lower-roman;
+}
+.markdown_html table {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+}
+.markdown_html caption {
+    caption-side: top;
+    text-align: left;
+}
+.markdown_html [dir="rtl"] caption {
+    text-align: right;
+}
+.markdown_html th, .markdown_html td {
+    border: 1px solid #CCCCCC;
+    margin: 0;
+    padding: 0.3em 0.5em;
+    vertical-align: top;
+}
+.markdown_html th {
+    background-color: #EEEEEE;
+    font-weight: bold;
+    text-align: left;
+}
+.markdown_html [dir="rtl"] th {
+    text-align: right;
+}
+.markdown_html a {
+    outline: medium none;
+}
+.markdown_html a:link, .markdown_html a:visited {
+    color: #2B73B7;
+    text-decoration: none;
+}
+.markdown_html a:link:hover, .markdown_html a:visited:hover, .markdown_html a:link:focus, .markdown_html a:visited:focus, .markdown_html a:link:active, .markdown_html a:visited:active {
+    text-decoration: underline;
+}
+.markdown_html img {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    color: #666666;
+    font-style: italic;
+    height: auto;
+    vertical-align: middle;
+}
+.markdown_html img, .markdown_html object, .markdown_html embed, .markdown_html iframe, .markdown_html video, .markdown_html audio {
+    max-width: 100%;
+}
+#IE7 .markdown_html img, #IE8 .markdown_html img, .markdown_html button img {
+    max-width: none;
+}
+.markdown_html hr {
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #CCCCCC;
+    border-width: 1px 0;
+    clear: both;
+    height: 0;
+    text-align: center;
+}
+.markdown_html acronym, .markdown_html abbr {
+    border-bottom: 1px dotted;
+    cursor: help;
+    font-style: normal;
+}
+.markdown_html em acronym, .markdown_html em abbr {
+    font-style: italic;
+}
+.markdown_html mark {
+    background-color: #FFFF99;
+    color: inherit;
+}
+.markdown_html pre, .markdown_html code, .markdown_html samp, .markdown_html kbd {
+    background-color: #FBFAF9;
+    border-radius: 2px;
+    box-shadow: 0 0 0.3em #CCCCCC inset;
+    color: #333333;
+    direction: ltr;
+    font-family: Consolas,"Andale Mono WT","Andale Mono","Bitstream Vera Sans Mono","Nimbus Mono L",Monaco,"Courier New",monospace;
+    font-size: 1em;
+    text-align: left;
+}
+.markdown_html pre {
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    box-shadow: 0 0 0.5em #CCCCCC inset;
+    overflow: auto;
+    padding: 0.7em 1em;
+    word-wrap: normal;
+}
+.markdown_html pre code{
+    box-shadow: none;
+}
+.markdown_html blockquote {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #CCCCCC;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 0 0.25em;
+    padding: 0 0.5em;
+}
+.markdown_html [dir="rtl"] blockquote {
+    border-width: 0 0.25em 0 0;
+}
+.markdown_html q:before, .markdown_html q:after {
+    content: "";
+}
+.markdown_html sub, .markdown_html sup {
+    font-size: 0.8em;
+    line-height: 1;
+}
+.markdown_html sub {
+    vertical-align: sub;
+}
+.markdown_html sup {
+    vertical-align: super;
+}
+.markdown_html small {
+    font-size: 0.8em;
+}
+.markdown_html form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.markdown_html fieldset {
+    border: 1px solid #999999;
+    padding: 0.7rem 1rem;
+}
+.markdown_html fieldset > *:last-child {
+    margin-bottom: 0;
+}
+.markdown_html legend {
+    margin: 0;
+    padding: 0 0.1em;
+}
+.markdown_html label {
+    cursor: pointer;
+    vertical-align: middle;
+}
+.markdown_html input, .markdown_html textarea, .markdown_html button, .markdown_html select, .markdown_html optgroup, .markdown_html option, .markdown_html keygen, .markdown_html output, .markdown_html meter, .markdown_html progress {
+    -moz-box-sizing: border-box;
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: inherit;
+    font-size: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+}
+.markdown_html select {
+    max-width: 100%;
+}
+.markdown_html optgroup {
+    font-style: italic;
+    font-weight: bold;
+}
+.markdown_html option {
+    font-style: normal;
+    font-weight: normal;
+}
+.markdown_html input, .markdown_html textarea, .markdown_html select, .markdown_html keygen {
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    box-shadow: 0 0 1px #EEEEEE inset;
+}
+.markdown_html input:active, .markdown_html input:focus, .markdown_html textarea:active, .markdown_html textarea:focus, .markdown_html select:active, .markdown_html select:focus, .markdown_html keygen:active, .markdown_html keygen:focus {
+    border-color: #999999;
+}
+.markdown_html input[type="radio"], .markdown_html input[type="checkbox"], .markdown_html input[type="image"] {
+    border-style: none;
+    box-shadow: none;
+    padding: 0;
+}
+.markdown_html input[type="submit"], .markdown_html input[type="button"], .markdown_html input[type="reset"], .markdown_html input.button, .markdown_html a.button, .markdown_html button, .markdown_html .qq-upload-button {
+    background-color: #EEEEEE;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc4MjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiNGRkZGRkYiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNGNEY0RjQiIG9mZnNldD0iMC4zIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0VFRUVFRSIgb2Zmc2V0PSIwLjk5Ii8+PHN0b3Agc3RvcC1jb2xvcj0iI0NDQ0NDQyIgb2Zmc2V0PSIuOTkiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnODI0KSIgLz4KPC9zdmc+");
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    color: #333333;
+    cursor: pointer;
+    padding: 0.1em 0.5em;
+}
+#IE7 .markdown_html  input.button, #IE7 .markdown_html  button {
+    line-height: 1.4;
+    overflow: visible;
+}
+.markdown_html input[type="submit"]:hover, .markdown_html input[type="submit"]:active, .markdown_html input[type="submit"]:focus, .markdown_html input[type="button"]:hover, .markdown_html input[type="button"]:active, .markdown_html input[type="button"]:hover, .markdown_html input[type="reset"]:hover, .markdown_html input[type="reset"]:active, .markdown_html input[type="reset"]:hover, .markdown_html input.button:hover, .markdown_html input.button:active, .markdown_html input.button:focus, .markdown_html a.button:hover, .markdown_html a.button:active, .markdown_html a.button:focus, .markdown_html button:hover, .markdown_html button:active, .markdown_html button:focus, .markdown_html .qq-upload-button:hover {
+    background-color: #DDDDDD;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc2NzAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+CjxzdG9wIHN0b3AtY29sb3I9IiNGRkZGRkYiIG9mZnNldD0iMCIvPjxzdG9wIHN0b3AtY29sb3I9IiNGNEY0RjQiIG9mZnNldD0iMC4zIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0RERERERCIgb2Zmc2V0PSIwLjk5Ii8+PHN0b3Agc3RvcC1jb2xvcj0iI0JCQkJCQiIgb2Zmc2V0PSIuOTkiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNnNjcwKSIgLz4KPC9zdmc+");
+    border-color: #999999;
+}
+.markdown_html input::-moz-focus-inner, .markdown_html button::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+.markdown_html input[disabled], .markdown_html button[disabled], .markdown_html select[disabled], .markdown_html textarea[disabled], .markdown_html input[readonly], .markdown_html button[readonly], .markdown_html select[readonly], .markdown_html textarea[readonly] {
+    background-color: #EEEEEE;
+    cursor: auto;
+    opacity: 0.5;
+}
+
+.markdown_html p{
+    color: #000000;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 15px 0;
+    padding: 0 5px;
+}

@@ -1,0 +1,425 @@
+@charset "utf-8";
+.mainTitle_style4 {color:#222222; font:bold   16px "Microsoft YaHei";}
+.articleWord_style1{color:#888888; font:normal 12px "Simsun";}
+a.articleWord_style1:hover{color:#000000;}
+.articleWord_style2{color:#de6956; font:normal 12px "Simsun";}
+a.articleWord_style2:hover{color:#de6956;}
+.articleWord_style3{color:#cc5845; font:normal 12px "Simsun";}
+.articleWord_style4{color:#cc5845; font:bold 14px "Simsun";}
+
+#header{overflow:hidden;}
+.header-top{height:126px;}
+.back-header-top{height:110px;}
+#logoYtx{background:url(../images/ytx/logo_YTX.jpg); float:left; display:block; margin:24px 44px 20px 0; width:82px; height:82px;}
+#navYtx{overflow:hidden; position:relative; width:974px;}
+#navYtx a{float:left; position:relative; bottom:0px; color:#222222; font:600 18px/170px "Microsoft YaHei"; text-decoration:none; padding:0 30px; height:125px;}
+#navYtx a:hover{text-decoration:none;}
+#navYtx #navYtxMoveBar{position:absolute; bottom:0px; background-color:#de6956; height:6px;}
+
+#center .rowYtx1{background-color:#00a6e1; margin:0 auto;}
+#center .rowYtx2{overflow:hidden; padding-top:35px; margin-bottom:55px;}
+#center .rowYtx2 .col1{margin-right:29px; width:330px;}
+#center .rowYtx2 .col2{padding-left:30px; width:330px; border-left:1px solid #e5e5e5;}
+#center .rowYtx2 .col3{margin-left: 48px; width:330px;}
+
+#center .rowYtxList{overflow:hidden; position:relative; border-top:2px solid #e5e5e5;}
+#center .rowYtxList .rightGreyBackground{position:absolute; left:739px; border-left:1px solid #ededed; background-color:#f9f9f9; width:100%;}
+#center .rowYtxList .rightGreyBackground{padding-bottom:110px;}
+#center .rowYtxList .col1{padding:20px 25px 110px 0; width:714px;}
+#center .rowYtxList .col2{padding:20px 0 0 30px; width:330px;}
+#center .rowYtxList .articleArea{padding-right:55px; width:684px;}
+
+#center .rowYtxShowTop{background-color:#f9f9f9; border-bottom:3px solid #222222; height:auto;}
+#center .rowYtxShowTop .rowYtxShowTeamFrame{height:auto;margin:0 auto;padding-top: 25px; clear:both;text-align:center;}
+.showRightBox{margin:25px 0 30px 0;}
+.noShowRightBoxTop{margin-top:15px;}
+.showRightBox h3{color:#333333; font:bold 20px "Microsoft YaHei"; margin-bottom:20px;}
+.showRightBox ul li{padding-bottom:6px; list-style-type:square; list-style-position:inside; color:#c0c0c0;}
+.showRightBox ul li a{color:#de6956; font:normal 14px "simsun"; text-decoration:none;}
+.showRightBox ul li a:hover{color:#de6956; text-decoration:underline;}
+.showRightBox span{color:#222222; font:normal 14px "simsun";}
+.showRightBox p{margin-top:10px;}
+.showRightBox p span{margin-right:10px;}
+
+.tags{overflow:hidden; background-color:#f4f4f4; border:1px solid #e5e5e5; border-top-width:3px; padding:9px 5px; margin-bottom:30px; }
+.tags a{overflow:hidden; float:left; font:normal 12px/28px "Simsun"; color:#888888; margin:0 20px; text-decoration:none; height:28px;}
+.tags a.on{font-weight: bold; color: #DE6956;}
+.tags a:hover{text-decoration:underline;}
+
+.listNav{overflow:hidden; margin:5px 0;}
+.listNav span{float:left; background-color:#e5e5e5; margin:3px 10px; width:1px; height:16px;}
+.listNav span.splitType1{margin: 0 10px;}
+.listNav a{float:left; font:normal 12px "Simsun"; color:#666666; text-decoration:none;}
+.listNav a:hover{color:#de6956; text-decoration:none;}
+.listNav a.on{color:#de6956;}
+.col1 .listBox{margin-bottom:50px;}
+.listBox ul{margin:18px 0 20px 0;}
+.listBox ul li b{padding:8px;}
+
+.pageIndex{text-align:center; cursor:default;}
+.pageIndex .ellipsis{font-size:16px; position:relative; top:-2px;}
+.pageIndex .common{font:normal 12px "Simsun"; color:#101010; background-color:#ffffff; border:1px solid #dbdbdb; padding:3px 6px; margin:0 2px; text-decoration:none;}
+.pageIndex a:hover{color:#ffffff; background-color:#de6956; border:1px solid #de6956; text-decoration:none;}
+.pageIndex .on{color:#ffffff; background-color:#de6956; border:1px solid #de6956;}
+.pageIndex .off{color:#bfbbbb;}
+
+/*营天下月刊分页样式开始*/
+.yellow_pagination{width:100%;margin-top:20px;margin-bottom:20px;text-align: center;}
+.pagination_postion_modify{float: left; margin: 10px 0;}
+.yellow_pagination .pagination {text-align:center; cursor:default;clear: both;}
+.yellow_pagination .pagination a{font:normal 12px "Simsun"; color:#101010; background-color:#ffffff; border:1px solid #dbdbdb; padding:3px 6px; margin:0 2px; text-decoration:none;}
+.yellow_pagination .pagination a:hover{color:#ffffff; background-color:#de6956; border:1px solid #de6956; text-decoration:none;}
+
+.yellow_pagination .pagination a.prev_page{font:normal 12px "Simsun"; color:#101010; background-color:#ffffff; border:1px solid #dbdbdb; padding:3px 6px; margin:0 2px; text-decoration:none;}
+.yellow_pagination .pagination span.prev_page{font:normal 12px "Simsun"; color:#bfbbbb; background-color:#ffffff; border:1px solid #dbdbdb; padding:3px 6px; margin:0 2px; text-decoration:none;}
+.yellow_pagination .pagination a.prev_page:hover{color:#ffffff; background-color:#de6956; border:1px solid #de6956; text-decoration:none;}
+
+.yellow_pagination .pagination a.next_page{font:normal 12px "Simsun"; color:#101010; background-color:#ffffff; border:1px solid #dbdbdb; padding:3px 6px; margin:0 2px; text-decoration:none;}
+.yellow_pagination .pagination span.next_page{font:normal 12px "Simsun"; color:#bfbbbb; background-color:#ffffff; border:1px solid #dbdbdb; padding:3px 6px; margin:0 2px; text-decoration:none;}
+.yellow_pagination .pagination a.next_page:hover{color:#ffffff; background-color:#de6956; border:1px solid #de6956; text-decoration:none;}
+
+.yellow_pagination .pagination span.current{font:normal 12px "Simsun"; color:#ffffff; background-color:#de6956; border:1px solid #de6956; padding:3px 6px; margin:0 2px; text-decoration:none;}
+.yellow_pagination .pagination .disabled{color:#bfbbbb;background-color:#ffffff; border:1px solid #dbdbdb; padding:3px 6px; margin:0 2px; text-decoration:none;}
+
+/*营天下月刊分页样式结束*/
+
+.top10Box ul li b{overflow:hidden; float:left; font:normal 14px/16px "Arial"; text-align:center; color:#fff; background-color:#d7d7d7; margin:2px 15px 2px 0; width:16px; height:16px;}
+.top10Box ul li b.top3{background-color:#de6956;}
+.top10Box ul li{overflow:hidden; list-style-type:none; list-style-position:outside; padding-bottom:0; margin-bottom:6px; *margin-bottom:0;}
+
+.imageFrameHeight{height:380px;}
+.imageFrameHeight img{height:380px;}
+.imageFrameHeight a{height:380px;}
+/*[修改] 此处比较特殊,直接修改kmIndex.css的样式比较好,让kmIndex.css的 .imageFrame a添加overflow hidden*/
+/*end*/
+
+#articlePublish{display:block; background:url(../images/ytx/bg_articlePublish.jpg) no-repeat 0 0; text-indent:-9999em; margin-bottom:30px; width:330px; height:69px;}
+#articlePublish:hover{background-position:0 -69px;}
+
+/*一些样式的覆盖调整*/
+.wordTitle .a2{background-image:url(../images/ytx/img_more_r.png)}
+.switch-box .progressBar{display:none;}
+.wordTitle{margin:15px 0;}
+.wordTitleTopless{margin-top:0;}
+.imageFrame{margin-bottom:17px;}
+.box ul{margin:0; padding:0;}
+.box li a{margin-left:0;}
+.box li span a{position:relative;color:#CAC9C9;}
+.nBox{margin-bottom:25px;}
+.listBox ul{margin:18px 0 20px 0;}
+/*end*/
+
+/*[覆盖]营天下轮播图片框的长宽样式修改*/
+.longSwitch-box{overflow:hidden; position:relative; width:100%;}
+.longSwitch-box .boxCenterAlign{position:relative; left:50%;}
+.switch-box{position:relative; left:-960px; margin:0; width:1920px; height:450px;}
+.switch-box img{width:1920px; height:395px;}
+.longSwitch-box .switch-arrow{position:absolute; bottom:40px; display:block; background:url(../images/ytx/arrow.png) no-repeat 0 0; width:40px; height:395px;}
+.longSwitch-box .leftArrow {left: 0; background-position:  0   -70px;}
+.longSwitch-box .rightArrow{right:0; background-position:-40px -70px;}
+.longSwitch-box .leftArrow:hover {background-position:  0   center;}
+.longSwitch-box .rightArrow:hover{background-position:-40px center;}
+.switch-box .switch-nav{bottom:1px; height:54px;}
+.switch-box .switch-nav a{margin:21px 5px; background-image:url(../images/ytx/icon_switchBox_r.png);}
+/*end*/
+
+.summaryBox2{overflow:hidden; clear:both; height:90px;}
+.summaryBox2 img{float:left; width:120px; height:90px;}
+.summaryBox2 .text h3{overflow:hidden; margin:0 0 10px; height:20px;}
+.summaryBox2 .text h3 a{text-decoration:none;}
+.summaryBox2 .text h3 a:hover{text-decoration:none;}
+.summaryBox2 .text h3 span a{color:#0078b6; font:normal 12px Simsun; text-decoration:none; margin:0 6px;}
+.summaryBox2 .text h3 span a:hover{color:#222222; text-decoration:none;}
+.summaryBox2 .text p{overflow:hidden; height:47px;}
+
+.articleSideBox{margin-bottom: 20px;}
+.articleSideBox .littleTitle{margin:15px 0;}
+.articleSideBox img.head{position:absolute; width:120px; height:120px;}
+.authorInfo{overflow:hidden; margin-left:140px;}
+div.authorInfo{line-height:32px; height:32px;}
+p.authorInfo{color:#222222; font:normal 14px/22px "Simsun"; height:22px;}
+p.authorInfo span{color:#de6956;}
+.articleSideBox .buttonArea{overflow:hidden; margin:22px 0;}
+.articleSideBox .buttonArea .button{float:left; background:url(../images/ytx/bg_authorInt.jpg) no-repeat 0 0; margin-right:20px; text-indent:-9999em; width:120px; height:28px;}
+.articleSideBox .buttonArea .type1{
+	background-color: #DA5B4A;
+	background-image: none;
+	text-indent: 0px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 26px;
+}
+.articleSideBox .buttonArea .type2{background-position:0 -28px;}
+.articleSideBox .buttonArea .type3{background-position:0 -56px;}
+.articleSideBox .buttonArea .type4{
+	background-color: #CDCDCD;
+	background-image: none;
+	text-indent: 0px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	line-height: 26px;
+}
+.articleSideBox .buttonArea .type1:hover{background-position:-120px   0  ;}
+.articleSideBox .buttonArea .type2:hover{background-position:-120px -28px;}
+
+
+#articleTop{border-bottom:1px solid #e5e5e5; padding-bottom:20px;}
+#navLine{margin:20px 0;}
+#navLine a{text-decoration:none;}
+#navLine a:hover{text-decoration:underline;}
+#articleTitle{color:#222222; font:bold 26px "Microsoft YaHei"; margin:10px 0;}
+#articleInfo{overflow:hidden; line-height:20px; font:normal 12px "Simsun"; }
+#articleInfo .leftPadding{margin-left:20px;}
+#articleInfo .rightPadding{margin-right:20px;}
+#articleInfo a{text-decoration:none;}
+#articleInfo a:hover{text-decoration:underline;}
+
+#articlePublished{overflow:hidden; color:#000000; font:normal 12px "Simsun"; margin:15px 0 0;line-height: 1.7;}
+#articlePublished .clock{padding-left:20px; background: url(../images/ytx/clock.png) no-repeat left top;}
+#articleSummary{overflow:hidden; color:#666666; font:normal 14px "Microsoft YaHei"; margin:25px 0 20px 0;line-height: 1.7;}
+#articleSummary b{display:inline-block; *margin:3px;}
+#articleSummary .leftQuatation {background:url(../images/ytx/icon_quotation.jpg) no-repeat   0   0; width:16px; height:16px;}
+#articleSummary .rightQuatation{background:url(../images/ytx/icon_quotation.jpg) no-repeat -16px 0; width:16px; height:16px;}
+
+#articleImage{overflow:hidden; margin:25px 0 20px 0;text-align:center;}
+#articleImage img{max-width:684px;}
+
+#articleText{overflow:hidden; font: normal 14px "Microsoft YaHei"; margin: 15px 0 5px 0; line-height: 1.7;}
+
+#articleOthers{overflow:hidden; margin:25px 0 35px 0;}
+#articleOthersLeft {float:left; background:url(../images/ytx/bg_readerInt.jpg) no-repeat 0 0; margin-top:10px; width:224px; height:40px;}
+#articleOthersLeft a{overflow:hidden; float:left; color:#222222; font:normal 14px/40px "simsun"; text-decoration:none; text-align:center; width:112px; height:40px;}
+#articleOthersLeft a:hover{color:#de6956; text-decoration:none;}
+#articleOthersLeft a .haveIcon{background:url(../images/ytx/icon_arrow_red_17_17.png) no-repeat right 0; padding:1px 23px 2.2px 0; _padding-bottom:0;}
+#articleOthersLeft a:hover .haveIcon{background-position:right -17px;}
+#articleOthersLeft a .giveUp{display:none;}
+#articleOthersLeft a:hover .giveUp{display:inline;}
+#articleOthersLeft a .hasBeenCollected{display:inline;}
+#articleOthersLeft a:hover .hasBeenCollected{display:none;}
+#articleOthersLeft b{font-weight:normal; color:#de6956;}
+@-moz-document url-prefix(){#articleOthersLeft a .haveIcon {padding-bottom:0;}}
+
+#articleOthersRight{float:right;}
+#articleOthersRight #articlePagePN{float:right;font:normal 12px "simsun";}
+#articleOthersRight #articlePagePN b{float:left; background-color:#c5c5c5; margin:0 8px; width:1px; height:14px;}
+#articleOthersRight #articlePagePN span{float:left;}
+#articleOthersRight #articlePagePN a{float:left; text-decoration:none;}
+#articleOthersRight #articlePagePN a:hover{text-decoration:underline;}
+#articleOthersRight #articleTags{overflow:hidden; margin-bottom:10px; height:25px; font:normal 12px "simsun";}
+#articleOthersRight #articleTags a{display:inline-block; line-height:25px; background-color:#e3e3e3; padding:0 10px; text-decoration:none;}
+#articleOthersRight #articleTags a{text-decoration:none;}
+
+#articleOthersBottom{margin-top:70px;}
+#articleOthersBottom #article_collection{border:1px dashed #d3d3d3; background-color:#f9f9f9; padding:0 17px 20px; display: none;}
+#articleOthersBottom #article_invite{border:1px dashed #d3d3d3; background-color:#f9f9f9; padding:0 17px 20px;  display: none;}
+#articleOthersBottom .collecting{margin-top:11px;}
+#articleOthersBottom .collectingBoxHint{float:left; color:#222222; font:normal 12px/20px "simsun"; margin-right:7px;}
+#articleOthersBottom select{font:normal 12px/18px "simsun"; height:20px;}
+#articleOthersBottom .inputLine{clear:both; padding-top:11px;}
+
+input.sure  {background:url(../images/ytx/bg_scButton.jpg) no-repeat left top;  cursor:pointer; border:0; color:#fff; font:normal 12px "simsun"; margin-left:6px; width:51px; height:22px;}
+input.sure.on{background-position:left bottom;}
+input.cancel{background:url(../images/ytx/bg_scButton.jpg) no-repeat right top; cursor:pointer; border:0; color:#222; font:normal 12px "simsun"; margin-left:6px; width:51px; height:22px;}
+input.cancel.on{background-position:right bottom;}
+
+
+
+#vote{margin-bottom:40px; padding-top: 40px;}
+.voteTop{border-top:3px solid #222222;}
+#vote .topWords{margin:0 0 22px; font-size:14px;}
+#vote .topWords span{font-size:14px;}
+#vote .voteArea{overflow:hidden; width: 630px; margin:0 auto;}
+#vote .voteArea div{overflow:hidden; float:left; text-decoration:none; margin:0 15px; width:60px; height:202px;}
+#vote .voteArea a:hover{text-decoration:none;}
+#vote .voteArea span{display:block;}
+#vote .voteArea div .value{color:#cc5845; font:normal 14px "Simsun"; text-align:center; margin-bottom:10px;}
+#vote .voteArea a:hover .value{color:#cc5845;}
+#vote .voteArea div .bloodBar{position:relative; border:1px solid #dfdfdf; background-color:#f9f9f9; margin:0 auto; width:33px; height:85px;}
+#vote .voteArea div .bloodBar b{position:absolute; bottom:0; display:block; background-color:#de6956; width:30px; height:0%;}
+#vote .voteArea div .iconFace{display:block; background:url(../images/ytx/icon_face.png) no-repeat 0 0; margin:8px auto; width:55px; height:55px;}
+#vote .voteArea div .word{color:#222222; font:normal 14px "Simsun"; text-align:center;}
+#vote .voteArea a:hover .word{color:#222222;}
+
+#vote .voteArea div#voteItem1 .iconFace{background-position:   0   0;}
+#vote .voteArea div#voteItem2 .iconFace{background-position: -55px 0;}
+#vote .voteArea div#voteItem3 .iconFace{background-position:-110px 0;}
+#vote .voteArea div#voteItem4 .iconFace{background-position:-165px 0;}
+#vote .voteArea div#voteItem5 .iconFace{background-position:-220px 0;}
+#vote .voteArea div#voteItem6 .iconFace{background-position:-275px 0;}
+#vote .voteArea div#voteItem7 .iconFace{background-position:-330px 0;}
+
+
+.commentArea{position:relative; border-top:3px solid #222222; padding-top:20px; margin-bottom:40px;}
+.commentArea .littleTitle{margin-bottom:30px;}
+.commentArea a.writeSomething{background:url(../images/ytx/icon_arrow_red_17_17.png) no-repeat right -17px; position:absolute; top:22px; right:0; padding-right:20px; text-decoration:none; line-height:20px; height:17px;}
+.commentArea a.writeSomething:hover{text-decoration:underline;}
+.commentArea .listNav{margin-bottom:20px;}
+.commentArea .listNav a.commentNav{font: bold 16px "Microsoft YaHei"}
+
+.commentArea .noComment{overflow:hidden; margin:50px 85px;}
+.commentArea .noComment b{background:url(../images/ytx/icon_noComment.jpg) no-repeat 0 0; width:100px; height:100px;}
+.commentArea .noComment p{color:#222222; font:normal 16px/32px "Microsoft YaHei";}
+.commentArea .noComment p span{color:#de6956;}
+.commentArea .type1 b{float: left; margin-right:10px; background-position:0    0  ;}
+.commentArea .type2 b{float:right; margin-left: 10px; background-position:0 -100px;}
+.commentArea .type1 p{float: left;}
+.commentArea .type2 p{float:right;}
+
+
+.inputArea{float:right; margin:20px 0;}
+.inputArea .commentInputCheckbox{position:relative; top:2px;}
+.inputArea label{color:#888888; font:normal 14px "simsun"; margin:0 6px;}
+.inputArea .commentInputButton{background:url(../images/ytx/bg_commentPublish.jpg) no-repeat 0 0; text-indent:-9999em; cursor:pointer; border-style:none; outline:none; width:98px; height:33px;}
+
+/**/
+.commentBox2{overflow:hidden; margin:30px 0 20px 0;}
+.commentBox2 .headImageCol{float:left;}
+.commentBox2 .headImageCol img{width:60px; height:60px;}
+
+.commentBox2 .contentCol{margin-left:75px;}
+.commentBox2 .contentCol .headRow{overflow:hidden; margin-bottom:10px; height:16px;}
+.commentBox2 .contentCol .headRow a.name{float:left; color:#000000; font:normal 14px "simsun"; text-decoration:none;}
+.commentBox2 .contentCol .headRow a.name:hover{color:#000000; text-decoration:underline;}
+.commentBox2 .contentCol .headRow .date{float:right; color:#c9c9c9; font:normal 14px "arial";}
+.commentBox2 .contentCol .content{color:#666666; font:normal 14px "simsun"; margin-bottom:10px;}
+
+.commentBox2 .commentInfo{clear:both; text-align:right;}
+.commentBox2 .commentInfo a{background:url(../images/ytx/icon_commentInfo.jpg) no-repeat 0 0; text-decoration:none; padding:2px 0 2px 21px; margin-left:16px;}
+.commentBox2 .commentInfo a:hover{text-decoration:none; color:#de6956;}
+.commentBox2 .commentInfo a span{color:#e1161e;}
+.commentBox2 .commentInfo .commentInfoType1{background-position:0   0  ;}
+.commentBox2 .commentInfo .commentInfoType2{background-position:0 -16px;}
+.commentBox2 .commentInfo .commentInfoType3{background-position:0 -32px;}
+.commentBox2 .commentInfo .comment_liked{background-position:0 -47px;}
+
+.commentBox2 .commentBox2Inner{position:relative; border:1px solid #dfdfdf; background-color:#f9f9f9; margin-top:20px; padding:15px;}
+.commentBox2 .commentBox2Inner .arrow{position:absolute; left:0; top:-6px; background:url(../images/ytx/icon_commentInnerArrow.png) no-repeat 0 0; width:11px; height:6px;}
+.commentBox2 .commentBox2Inner .hr{margin:15px 0;}
+
+.commentBox2 .commentBox2Inner .commentBox2InnerBox{overflow:hidden;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .headImageColInner{float:left;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .headImageColInner img{width:45px; height:45px;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .contentColInner{margin-left:60px;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .contentColInner .headRow{overflow:hidden; color:#222222; font:normal 12px "simsun"; margin-bottom:10px; height:16px;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .contentColInner .headRow .date{float:right;color: #C9C9C9;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .contentColInner .headRow a{color:#de6956; font:normal 12px "simsun"; text-decoration:none;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .contentColInner .headRow a:hover{color:#de6956; font:normal 12px "simsun"; text-decoration:underline;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .contentColInner .content{color:#666666; font:normal 12px "simsun"; padding-right:100px; line-height: 1.7;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .commentInfoInner{float:right; margin-top:-16px;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .commentInfoInner a{float:left; color:#8f8f8f; font:normal 12px "simsun"; text-decoration:none;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .commentInfoInner a:hover{color:#de6956; text-decoration:none;}
+.commentBox2 .commentBox2Inner .commentBox2InnerBox .commentInfoInner span{float:left; background-color:#c9c9c9; margin:0 10px; width:1px; height:12px;}
+
+form.commentFastSubmit{margin-top:15px; height:122px;}
+form.commentFastSubmit textarea{border:1px solid #dfdfdf; color:#666666; font:normal 12px "simsun"; outline:0; resize:none; width:100%; height:71px;}
+form.commentFastSubmit .inputLineInner{margin:12px 0 30px 0; text-align:right;}
+form.commentFastSubmit .inputLineInner label{color:#888888; font:normal 12px "simsun"; margin:0 6px;}
+form.commentFastSubmit .inputLineInner .commentInputCheckbox{position:relative; top:2px;}
+
+.submiting{display:none;}
+
+
+/*把<hr> 换成 <div class="hr"></div>*/
+.hr{background-color:#e5e5e5; height:1px;}
+/*end*/
+.user_operate{float:right;}
+.articleOperateOption{margin:0 10px 0 0;}
+/*资源的操作隐藏按钮样式开始*/
+.edit_option{width: 60px; text-align: left; display: inline-block; }
+.default_option{width: 58px; display: block; text-align: center;}
+.default_operate_option_show{border-top: 1px solid #f1f1f1;border-left: 1px solid #f1f1f1;border-right: 1px solid #f1f1f1; width: 56px;}
+.operate_options{display:none; list-style-type: none; padding-left: 0; position: absolute; background-color: #FFFFFF; width: 58px;} 
+.operate_options_show{border-bottom: 1px solid #f1f1f1;border-left: 1px solid #f1f1f1;border-right: 1px solid #f1f1f1; width: 56px;}
+.operate_options li{cursor: pointer; padding: 2px; margin: 3px 0;}
+
+.default_option:hover{background:#f1f1f1;}
+.operate_options li:hover{background:#f1f1f1;}
+.small-loading {cursor: progress;background: transparent url(../images/loading-small.gif) no-repeat 10% center;}
+.small-loading-dark {cursor: progress;background: transparent url(../images/loading-small-dark.gif) no-repeat 10% center;}
+/*资源的操作隐藏按钮样式结束*/
+
+.tips{font:normal 12px "simsun"; margin:20px 0;}
+#articleText{font-family:'Microsoft YaHei','simsun';}
+#articleText a{color:blue;text-decoration:underline;}
+#articleText p{margin: 14px 0;}
+#articleText h1{display:block;}
+#articleText .table-wrap{max-width: 100%;overflow-x: auto;}
+#articleText table{max-width: 100%!important;}
+#articleAttachments{background-color:#F9F9F9; border: 1px dashed #D3D3D3; padding: 17px 20px; font:normal 12px "simsun"; margin: 25px 0 30px;}
+#articleAttachments .attachmentTitle{font:normal 12px "simsun"; margin:15px 0 10px 0; display:block; overflow: hidden;}
+#articleAttachments .attachmentTitle a{float:left;}
+#articleAttachments .attachmentTitle a img{margin: 0 0 0 10px;}
+/*资料*/
+#articleText p.attachmentSummary{font:normal 14px "simsun";font-weight: bold; margin: 0 0 10px;}
+#articleSource{background-color:#F9F9F9; border: 1px dashed #D3D3D3; padding: 17px 20px; font:normal 12px "simsun"; margin: 25px 0 30px;}
+#attachmentDownload{margin: 25px 0 10px; overflow: hidden;}
+#attachmentDownload .download{float:left; width: 152px; height: 42px;}
+#attachmentDownload .gold{float:left; width:152px; height: 42px;line-height:20px; background: url("../images/knowledge_portal/gold_div.png") no-repeat; padding-left:10px;}
+a.allowed_download{float:left;width:152px;height:42px;background: url("../images/knowledge_portal/download_off.png") no-repeat;}
+a.allowed_download:hover{background: url("../images/knowledge_portal/download_on.png") no-repeat;}
+a.no_allowed_download{float:left;width:152px;height:42px;background: url("../images/knowledge_portal/download_not_allowed.png") no-repeat;}
+
+
+
+
+/*文档在线播放*/
+#center .rowYtxShowTop .rowYtxShowDoc{width:1100px; height:auto;margin:0 auto;padding: 25px 0; clear:both;}
+#center .rowYtxShowTop  .nodoctips{width:1100px;height:auto;background-color:#fff;}
+.pRefuse {height:48px;padding:100px 250px;margin:20px 0;line-height:24px;font-size:18px;font-weight:800;border:1px solid #dadada;
+-webkit-box-shadow:4px 4px #f7f7f7;}
+.pRefuse .sIcon {float:left;display:block;width:48px;height:48px;margin-right:20px;background:url(../images/evideo/images.png) no-repeat 0 -100px;}
+
+.t_docs{
+	margin-bottom: 25px;
+}
+#training_doc_ul li{
+	background: url(../images/training/knowledge.png) no-repeat;
+	height: 50px;
+	padding-left: 60px;
+	list-style: none;
+	font-family: '宋体 Regular', '宋体';
+	padding-bottom: 15px;
+}
+#training_doc_ul a{
+	font-weight: 700;
+	font-size: 14px;
+	color: #222222;
+}
+#training_doc_ul a:hover{
+	color: #0078B6;
+}
+#training_doc_ul li span{
+	float: left;
+	font-family: '宋体 Regular', '宋体';
+	font-size: 12px;
+	color: #808080;
+}
+#training_doc_ul li.doc, #training_doc_ul li.docx{
+	background: url(../images/training/WORD.png) no-repeat;
+}
+#training_doc_ul li.xls, #training_doc_ul li.xlsx, #training_doc_ul li.csv{
+	background: url(../images/training/EXCEL.png) no-repeat;
+}
+#training_doc_ul li.pdf{
+	background: url(../images/training/PDF.png) no-repeat;
+}
+#training_doc_ul li.ppt, #training_doc_ul li.pptx{
+	background: url(../images/training/PPT.png) no-repeat;
+}
+#training_doc_ul li.rar, #training_doc_ul li.zip, #training_doc_ul li.gzip{
+	background: url(../images/training/rar.png) no-repeat;
+}
+#training_doc_ul li.jpg, #training_doc_ul li.jpeg, #training_doc_ul li.png, #training_doc_ul li.bmp, #training_doc_ul li.gif{
+	background: url(../images/training/IMAGE.png) no-repeat;
+}
+
+.unselectable{
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -khtml-user-select: none;  
+    -ms-user-select: none;    
+    -o-user-select: none;
+    user-select: none;  
+}

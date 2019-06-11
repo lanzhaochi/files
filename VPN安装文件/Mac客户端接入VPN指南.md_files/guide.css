@@ -1,0 +1,93 @@
+/**
+ * @OA新手指引
+ * Author: gzxushaolong
+ */
+
+.oa-guide{position:fixed;top:0;right:0;bottom:0;left:0;width:100%;z-index:10;background-color:#000;opacity:0.4;filter:alpha(opacity=40);}
+.oa-guide-bright{position:relative;z-index:20;background-color:#FFF;}
+.oa-guide-bright-mask{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;background-color:#FFF;opacity:0;filter:alpha(opacity=0);}
+.oa-guide-priority{z-index:20;}
+.oa-guide-tip{position:absolute;z-index:20;background-color:#198BFF;
+	-webkit-box-shadow:1px 1px 5px rgba(0, 0, 0, 0.4);
+			box-shadow:1px 1px 5px rgba(0, 0, 0, 0.4);
+}
+.guide-arrow{position:absolute;z-index:30;background-repeat:no-repeat;background-position:0 0;}
+.guide-content{position:relative;padding:34px 12px 12px 24px;font:18px/30px "Microsoft YaHei";}
+.guide-content p{padding-bottom:20px;color:#FFF;line-height:30px;vertical-align:middle;}
+.guide-content a.next{float:right;padding:0 15px;color:#198BFF;font-size:16px;background-color:#A3E4FF;}
+.guide-content a.next:hover{background-color:#FFF;}
+.guide-content a.close{position:absolute;top:10px;right:12px;width:14px;height:14px;background:url(../images/guide/guide_icon.png) no-repeat 0 0;}
+.guide-content ul.guide-step{float:left;padding:11px 0;height:8px;}
+.guide-content ul.guide-step li{float:left;display:inline;margin-right:10px;width:8px;height:8px;background:url(../images/guide/guide_icon.png) no-repeat 0 -50px;}
+.guide-content ul.guide-step li.hover{background-position:0 -100px;}
+
+.oa-guide-tip01{top:100px;left:460px;width:280px;}
+.oa-guide-tip01 .guide-content{height:110px;}
+.oa-guide-tip01 .guide-arrow{bottom:-55px;left:-40px;width:62px;height:65px;background-image:url(../images/guide/guide_arrow01.png);}
+
+.oa-guide-tip02{top:150px;right:40px;width:380px;}
+.oa-guide-tip02 .guide-content{height:120px;}
+.oa-guide-tip02 .guide-arrow{bottom:-140px;left:100px;width:148px;height:150px;background-image:url(../images/guide/guide_arrow02.png);}
+.oa-guide-tip02 p{overflow:hidden;}
+.oa-guide-tip02 i.operate-state{float:left;margin-top:10px;vertical-align:top;width:30px;height:30px;background-image:url(../images/oa_flow_btn.png);background-repeat:no-repeat;}
+.oa-guide-tip02 i.submit{background-position:0 -300px;}
+.oa-guide-tip02 i.reject{background-position:0 -350px;}
+.oa-guide-tip02 i.more{background-position:0 -950px;}
+.oa-guide-tip02 span{float:left;display:inline;margin:10px 20px 0 5px;font-size:14px;}
+
+.oa-guide-tip03{top:160px;left:550px;width:300px;}
+.oa-guide-tip03 .guide-content{height:110px;}
+.oa-guide-tip03 .guide-arrow{bottom:-135px;left:-120px;width:148px;height:150px;background-image:url(../images/guide/guide_arrow03.png);}
+.oa-guide-tip03 i.view{display:inline-block;margin:0 5px;vertical-align:top;width:20px;height:30px;background:url(../images/oa_flow_icon.png) no-repeat 0 -141px;}
+
+.oa-guide-tip04{top:96px;left:240px;width:400px;}
+.oa-guide-tip04 .guide-content{height:140px;}
+.oa-guide-tip04 .guide-arrow{top:80px;left:-52px;width:62px;height:65px;background-image:url(../images/guide/guide_arrow01.png);}
+
+.oa-guide-tip05{top:276px;left:240px;width:440px;}
+.oa-guide-tip05 .guide-content{height:110px;}
+.oa-guide-tip05 .guide-arrow{top:140px;left:-52px;width:62px;height:65px;background-image:url(../images/guide/guide_arrow01.png);}
+
+.oa-guide-tip06{top:500px;left:240px;width:440px;}
+.oa-guide-tip06 .guide-content{height:110px;}
+.oa-guide-tip06 .guide-arrow{top:100px;left:-52px;width:62px;height:65px;background-image:url(../images/guide/guide_arrow01.png);}
+
+.oa-guide-tip07{top:260px;left:670px;width:320px;}
+.oa-guide-tip07 .guide-content{height:110px;}
+.oa-guide-tip07 .guide-arrow{top:-45px;left:-52px;width:62px;height:65px;background-image:url(../images/guide/guide_arrow06.png);}
+
+#guide-mask{width:100%;height:100%;display:block;background-color:#000;position:fixed;top:0;left:0;z-index:20000;opacity:0.7;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);}
+#guide{width:930px;height:615px;position:absolute;z-index:20001;top:15%;left:50%;margin-left:-465px;-webkit-font-smoothing:antialiased;}
+#guide .content{text-align:center;position:relative;margin:0 auto;width:760px;margin-top:50px;overflow:visible;z-index:2;transition:all 1s;-moz-transition:all 1s;/* Firefox 4 */
+-webkit-transition:all 1s;/* Safari 和 Chrome */
+-o-transition:all 1s;/* Opera */
+}
+#guide .content.selected{margin-top:0;}
+#guide .content-wrap{position:absolute;left:50%;top:0;width:800px;margin-left:-400px;font-size:0;line-height:0;opacity:0;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);transition:all 1.2s;-moz-transition:all 1.2s;/* Firefox 4 */
+-webkit-transition:all 1.2s;/* Safari 和 Chrome */
+-o-transition:all 1.2s;/* Opera */
+*display:none;}
+#guide .content-wrap.selected{*display:block;opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
+#guide .guide-img{display:block;margin:0 auto;}
+#guide .nav{background-image:url(../images/guide/nav.png);display:block;position:absolute;cursor:pointer;z-index:2;transition:all 0.5s;-moz-transition:all 0.5s;/* Firefox 4 */
+-webkit-transition:all 0.5s;/* Safari 和 Chrome */
+-o-transition:all 0.5s;/* Opera */
+}
+#guide .close{background-position:-530px -37px;width:47px;height:47px;right:0;top:0;z-index:1;opacity:0.5;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);}
+#guide .close:hover{opacity:1;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);}
+#guide .nav.prev{background-position:0 0;width:50px;height:134px;left:-2%;top:30%;margin-top:-67px;opacity:0.7;}
+#guide .nav.next{background-position:-878px 0;width:50px;height:134px;right:-2%;top:30%;margin-top:-67px;opacity:0.5;}
+#guide .nav.prev span{position:absolute;left:32px;top:59px;width:60px;color:#C5C8CC;display:block;}
+#guide .nav.next span{position:absolute;right:32px;top:59px;width:60px;color:#C5C8CC;text-align:right;display:block;}
+#guide .nav.prev:hover,#guide .nav.next:hover{opacity:1;}
+#guide .nav.dot{position:static;display:inline-block;*display:inline;zoom:1;width:21px;height:20px;background-position:-473px -48px;margin:0 10px;}
+#guide .nav.dot.selected{background-position:-435px -48px;}
+#guide .pagination{position:absolute;bottom:0;left:50%;width:400px;margin-left:-200px;text-align:center;}
+#guide-vocation{position:absolute;z-index:20001;top:0;left:20.5%;margin-left:0;-webkit-font-smoothing:antialiased;}
+#guide-vocation img{position:absolute;}
+#guide-vocation .p1{left:0;top:116px;}
+#guide-vocation .p2{top:390px;left:-55px;}
+#guide-vocation .p3{top:376px;left:-115px;}
+#guide-vocation .p4{top:121px;left:24px;}
+#guide-vocation .p1-leader{top:121px;left:6px;}
+#guide-vocation .p2-leader{top:88px;left:-62px;}

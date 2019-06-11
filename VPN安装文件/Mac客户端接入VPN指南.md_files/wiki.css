@@ -1,0 +1,2569 @@
+@charset "utf-8";
+html,body {background:#fff;}
+div.clear{
+	clear: both;
+}
+.redborder{
+	border: 1px solid red;
+}
+.error{
+	color: red;
+}
+.wiki_error{
+	color: red;
+	padding-left: 20px;
+	font-size: 12px;
+}
+h4{
+	margin: 0;
+}
+#header{
+	overflow: visible;
+}
+li{
+	color: #c0c0c0;
+}
+
+/******************************head******************************/
+#logo {
+	background: url(../images/wiki/top.png) no-repeat;
+	float: left;
+	display: block;
+	width: 1100px;
+	margin-top : 30px;
+	margin-bottom: 0;
+}
+
+.navKM{
+	margin-top: 56px;
+	border-bottom: 2px #D7D7D7 solid;
+	position: static;
+}
+.navKM .on{
+	background: url(../images/wiki/bg.png) no-repeat;
+}
+.navKM .navKMCom:hover{
+	background:url(../images/wiki/bg.png) no-repeat; 
+	color: #222222;
+}
+.navKM .main{
+}
+.navKM .navKMCom{
+	width: 140px;
+}
+.navKM .searchBox{
+	margin-top: 10px;
+	background: none;
+}
+.searchBox input{
+	width: 223px;
+}
+#search_submit{
+	width: 70px;
+	height: 32px;
+	float: right;
+	background: #13AAdf;
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #fff;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#search_submit:hover{
+	background: #0078B6;
+}
+#search_submit div{
+	text-align: center;
+	padding-top: 4px;
+}
+#wiki_nav_mysites_p font{
+	background: url(../images/wiki/rect.png) no-repeat -5px 6px;
+}
+/******************************head end******************************/
+
+.nBox .wordTitle .a2 {
+	background-image: url(../images/km_index/icon_more.png);
+}
+
+.pop_div_body{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.pop_div_block{
+	margin: 10px;
+}
+.pop_div_title{
+	margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+/**********引用modal**************/
+#to_reference_div {
+	width: 450px;
+	padding: 0;
+}
+
+#to_reference_div .h3Title {
+	height: 62px;
+	line-height: 62px;
+	font-weight: bold;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+#to_reference_div .aClose {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 20px;
+	right: 21px;
+	background: url(/images/evideo/icon_close.png) no-repeat 50% 50%;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+#to_reference_div .aClose:hover {
+	transform: rotate(360deg);
+}
+
+#to_reference_div .reference_links {
+	padding: 20px 15px 0 15px;
+	font-size: 14px;
+}
+
+#to_reference_div .reference_tabs {
+	margin-top: 0;
+	padding: 1.2em;
+}
+
+#to_reference_div .pop_div_body {
+	width: 100%;
+	padding: 15px 0;
+	margin-top: 0;
+}
+
+#to_reference_div .pop_div_body select {
+	max-width: 180px;
+	padding: 5px;
+	border: 1px solid #14aadf;
+	font-size: 12px;
+	line-height: 20px;
+	color: #555;
+}
+
+#to_reference_div .reference_tabs .ulListtc1 {
+	padding: 15px 0;
+}
+
+#to_reference_div .reference_tabs .ulListtc1 li {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+}
+
+#to_reference_div .reference_tabs .ulListtc1 li .inpBut {
+	cursor: pointer;
+	border-radius: 2px;
+	transition: all .2s ease-in;
+	-webkit-transition: all .2s ease-in;
+	font-size: 16px;
+	padding: 0 30px;
+	line-height: 38px;
+	height: 38px;
+	margin: 0 20px;
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	color: #666;
+	font-weight: normal;
+}
+
+#to_reference_div .reference_tabs .ulListtc1 li .inpBut:hover {
+	background-color: #eee;
+}
+
+#to_reference_div .reference_tabs .ulListtc1 li .inpBut.inpBut_blue {
+	background: #14aadf;
+	border: 1px solid #14aadf;
+	color: #fff;
+}
+
+#to_reference_div .reference_tabs .ulListtc1 li .inpBut.inpBut_blue:hover {
+	background: #1086B0;
+}
+/***********引用modal end*********/
+
+#wikis_mysites{
+	display: none;
+	position: absolute;
+	left: 140px;
+	top: 50px;
+	z-index: 9999;
+	overflow: visible;
+}
+.wikis_mysites_items{
+	width: 185px;
+	height: 35px;
+	display: block;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	background: #F2F2F2;
+	padding-top: 5px;
+	padding-left: 15px;
+	cursor: pointer;
+}
+.wikis_mysites_items:hover{
+	background: #13AADF;
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+/******************************public******************************/
+.pa{
+	margin-right: 5px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: top;
+}
+.pa_list{
+	background: url(../images/wiki/images_new.png) no-repeat -331px -269px;
+}
+.page_action:hover .pa{
+	color: #ffffff;
+}
+.page_action:hover .pa_list{
+	background: url(../images/wiki/images_new.png) no-repeat -331px -248px;
+}
+.pa_setting{
+	background: url(../images/wiki/images_new.png) no-repeat -299px -268px;
+}
+.page_action:hover .pa_setting{
+	background: url(../images/wiki/images_new.png) no-repeat -299px -246px;
+}
+.pa_edit{
+	background: url(../images/wiki/images_new.png) no-repeat -260px -248px;
+}
+.page_action:hover .pa_edit{
+	background: url(../images/wiki/images_new.png) no-repeat -260px -269px;
+}
+.pa_remove{
+	background: url(../images/wiki/images_new.png) no-repeat -183px -248px;
+}
+.page_action:hover .pa_remove{
+	background: url(../images/wiki/images_new.png) no-repeat -183px -267px;
+}
+.pa_email{
+	background: url(../images/wiki/images_new.png) no-repeat -368px -270px;
+}
+.page_action:hover .pa_email{
+	background: url(../images/wiki/images_new.png) no-repeat -368px -248px;
+}
+.pa_good{
+	background: url(../images/wiki/images_new.png) no-repeat -220px -248px;
+}
+.page_action:hover .pa_good{
+	background: url(../images/wiki/images_new.png) no-repeat -220px -266px;
+}
+.pa_pdf{
+	background: url(../images/wiki/images_new.png) no-repeat -298px -350px;
+}
+.page_action:hover .pa_pdf{
+	background: url(../images/wiki/images_new.png) no-repeat -298px -325px;
+}
+.pa_trash{
+	background: url(../images/wiki/images_new.png) no-repeat -382px -326px;
+}
+.page_action:hover .pa_trash{
+	background: url(../images/wiki/images_new.png) no-repeat -382px -349px;
+}
+.pa-circle-o-notch{
+	background: url(../images/wiki/images_new.png) no-repeat -345px -328px;
+}
+.page_action:hover .pa-circle-o-notch{
+	background: url(../images/wiki/images_new.png) no-repeat -345px -356px;
+}
+.pa_statistics{
+	background: url(../images/wiki/images_new.png) no-repeat -185px -410px;
+}
+.page_action:hover .pa_statistics{
+	background: url(../images/wiki/images_new.png) no-repeat -184px -437px;
+}
+.pa_org{
+	background: url(../images/wiki/images_new.png) no-repeat -243px -399px;
+}
+.page_action:hover .pa_org{
+	background: url(../images/wiki/images_new.png) no-repeat -243px -422px;
+}
+.pa_shift{
+    background: url(../images/wiki/images_new.png) no-repeat -294px -403px;
+}
+.page_action:hover .pa_shift{
+    background: url(../images/wiki/images_new.png) no-repeat -294px -427px;
+}
+.pa_refe{
+    background: url(../images/wiki/images_new.png) no-repeat -328px -402px;
+}
+.page_action:hover .pa_refe{
+    background: url(../images/wiki/images_new.png) no-repeat -328px -426px;
+}
+.pa_can_view{
+	background: url(../images/evideo/images1.png) no-repeat -185px -150px;
+}
+.page_action:hover .pa_can_view{
+	background: url(../images/wiki/white_stop.png) no-repeat 5px 5px;
+}
+.pa_cannot_view{
+	background: url(../images/evideo/images1.png) no-repeat -206px -150px;
+}
+.page_action:hover .pa_cannot_view{
+	background: url(../images/wiki/white_eye.png) no-repeat 5px 6px;
+}
+.page_action .hover_show{
+	display: none;
+	color: #13aadf;
+}
+.page_action:hover .hover_show{
+	display: inline-block;
+}
+.page_action:hover .hover_hidden{
+	display: none;
+}
+.page_action .hover_white{
+	color: #fff;
+}
+.page_action .hover_blue{
+	color: #13aadf;
+}
+.clock_em{
+	display: inline-block;
+	width: 15px;
+	height: 22px;
+	background: url(../images/evideo/images1.png) no-repeat -210px -249px;
+	vertical-align: top;
+}
+.edit_em{
+	display: inline-block;
+	width: 15px;
+	height: 22px;
+	background: url(../images/evideo/images1.png) no-repeat -170px -99px;
+	vertical-align: top;
+}
+.eye_em{
+	display: inline-block;
+	width: 15px;
+	height: 22px;
+	background: url(../images/evideo/images1.png) no-repeat -230px -249px;
+	vertical-align: top;
+}
+.person_em{
+	display: inline-block;
+	width: 15px;
+	height: 22px;
+	background: url(../images/evideo/images1.png) no-repeat -188px -48px;
+	vertical-align: top;
+}
+.page_recommend{
+	display: inline-block;
+	width: 28px;
+	height: 26px;
+	background: url(../images/wiki/images_new.png) no-repeat -235px -163px;
+	margin-top: -10px;
+	position: relative;
+	top: 8px;
+}
+.page_3days{
+	display: inline-block;
+	width: 28px;
+	height: 26px;
+	background: url(../images/wiki/images_new.png) no-repeat -297px -158px;
+	margin-top: -10px;
+	position: relative;
+	top: 8px;
+}
+.page_hot{
+	display: inline-block;
+	width: 28px;
+	height: 26px;
+	background: url(../images/wiki/images_new.png) no-repeat -174px -158px;
+	margin-top: -10px;
+	position: relative;
+	top: 8px;
+}
+.page_protected{
+	display: inline-block;
+	width: 28px;
+	height: 26px;
+	background: url(../images/wiki/images_new.png) no-repeat -228px -346px;
+	margin-top: -10px;
+	position: relative;
+	top: 8px;
+}
+.ulListtc1 li .inpBut{
+	background: #14aadf;
+}
+.ulList1 li span{
+	padding: 10px 0;
+}
+/******************************public end******************************/
+
+/******************************首页******************************/
+
+#wiki_index_main{
+	font-family: '宋体';
+	padding: 40px 0;
+}
+#wiki_index_main .nBox{
+	margin-bottom: 0px;
+}
+#wiki_left{
+	width: 720px;
+	float: left;
+	min-height: 300px;
+}
+#wiki_right{
+	width: 330px;
+	float: right;
+}
+.wiki_search_page #wiki_right{
+	display: none;
+}
+#rec_div{
+	padding-bottom: 30px;
+	border-bottom: 2px #14AADF solid;
+}
+#rec_div .wordTitle{
+	margin-top: 0;
+}
+#rec_div .wordTitle h2{
+	font-family: '微软雅黑';
+}
+.rec_left{
+	float: left;
+	width: 200px;
+	margin-right: 20px;
+}
+.rec_right{
+	float: left;
+	width: 500px;
+}
+.rec_title{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.rec_title a{
+	color: #000;
+}
+.rec_title a:hover{
+	color: #1E8DC1;
+}
+.rec_content{
+	font-size: 14px;
+	color: #333333;
+	line-height: 24px;
+}
+.rec_more{
+	color: #1E8DC1;
+}
+
+.wiki_mid{
+	width: 340px;
+}
+#index_lastest{
+	float: left;
+}
+#index_hotest{
+	float: right;
+}
+#index_hotest .list_num_span{
+	float: none;
+	margin-right: 5px;
+	font-size: 12px;
+}
+#index_hotest li{
+	list-style: none;
+}
+.box #index_hotest li .list_num_span{
+	color: #fff;
+	font-family: '宋体';
+}
+#rec_site_div{
+	padding-bottom: 20px;
+	border-bottom: 1px #E4E4E4 solid;
+	margin-top: 35px;
+}
+#rec_site_div a:hover, #new_site_div a:hover, #my_sites a:hover{
+	color: #1E8DC1;
+}
+.rec_site_left{
+	float: left;
+	width: 280px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.rec_site_left h3{
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #333333;
+	margin-top: 20px;
+}
+.rec_site_abs{
+	font-size: 12px;
+	color: #808080;
+	margin-top: 10px;
+}
+.rec_site_info{
+	margin-top: 5px;
+}
+.rec_site_info span{
+	margin-right: 15px;
+	font-family: '微软雅黑';
+}
+.rec_site_right{
+	float: left;
+	width: 420px;
+}
+.rec_site_item{
+	margin-bottom: 10px;
+}
+.rec_site_item_left{
+	float: left;
+	width: 80px;
+	margin-right: 15px;
+}
+.rec_site_item_right{
+	float: left;
+	width: 320px;
+}
+.rec_site_item_right h4{
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	color: #333333;
+}
+.rec_site_item_content{
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #808080;
+	line-height: 20px;
+}
+.rec_site_split{
+	border-bottom: 1px dashed #CCCCCC;
+	margin: 12px 0;
+}
+.new_site_split{
+	border-bottom: 1px dashed #CCCCCC;
+	margin: 15px 0;
+}
+.citiao_num_span, .view_num_span, .time_span{
+	font-size: 12px;
+	color: #808080;
+}
+
+
+.new_site_item{
+	
+}
+.new_site_item_left{
+	float: left;
+	width: 160px;
+	margin-right: 20px;
+}
+.new_site_item_right{
+	float: left;
+	width: 440px;
+}
+.new_site_item_right h4{
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.new_site_item_editor a{
+	color: #1E8DC1;
+}
+.new_site_item_editor a:hover{
+	text-decoration: none;
+}
+.new_site_item_content{
+	font-size: 12px;
+	color: #808080;
+	margin-top: 8px;
+	line-height: 20px;
+}
+.new_site_item_info{
+	margin-top: 10px;
+}
+.new_site_item_info span{
+	margin-right: 15px;
+}
+#new_site_more{
+	width: 720px;
+	height: 35px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	background: #A1A1A1;
+	padding-top: 10px;
+}
+#new_site_more:hover{
+	background: #666666;
+}
+#new_site_more div{
+	margin: 0 auto;
+	width: 50px;
+	color: #ffffff;
+	font-size: 18px;
+	font-family: '微软雅黑';
+}
+
+#wiki_info{
+	border-bottom: 1px #E4E4E4 solid;
+}
+#wiki_info_data{
+	padding: 0 10px;
+	padding-left: 15px;
+	padding-top: 50px;
+	padding-bottom: 32px;
+	background: #F8F8F8 url(../images/wiki/data_top.png) no-repeat 30px 8px;
+}
+.wiki_data{
+	float: left;
+	margin: 0 10px;
+	width: 80px;
+	height: 80px;
+}
+.wiki_data_title{
+	width: 100%;
+	height: 30px;
+	background: #14AADF;
+	color: #ffffff;
+}
+.wiki_data_title div{
+	text-align: center;
+	padding-top: 5px;
+}
+.wiki_data_data{
+	width: 78px;
+	height: 50px;
+	color: #14AADF;
+	background: #FFFFFF;
+	border: 1px solid #F2F2F2;
+	border-top : none;
+}
+.wiki_data_data div{
+	text-align: center;
+	font-weight: bold;
+	padding-top: 15px;
+	font-size: 14px;
+}
+#wiki_create{
+	width: 280px;
+	background: #14AADF;
+	color: #ffffff;
+	height: 45px;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+#wiki_create:hover{
+	background: #0078B6;
+}
+#wiki_create_a:hover, #new_site_more_a:hover{
+	text-decoration: none;
+}
+#wiki_create div{
+	margin: 0 auto;
+	width: 100px;
+	font-family: '微软雅黑';
+	font-size: 18px;
+	padding-top: 10px;
+}
+#wiki_create font{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+#my_sites{
+	
+}
+.my_sites_item{
+}
+.my_sites_item_left{
+	float: left;
+	width: 80px;
+	margin-right: 15px;
+}
+.my_sites_item_right{
+	float: left;
+	width: 230px;
+}
+.my_sites_item_right h4{
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+	margin-bottom: 7px;
+}
+.rec_site_item_content a{
+	font-size: 12px;
+	color: #1E8DC1;
+}
+#my_sites_item_hidden{
+	display: none;
+}
+
+#my_edit_sites{
+	margin-top: 30px;
+	border-top: 1px solid #E4E4E4;
+	border-bottom: 1px #E4E4E4 solid;
+	padding-bottom: 15px;
+}
+
+#right_img{
+	margin-top: 30px;
+}
+#my_sites_more:hover{
+	text-decoration: none;
+}
+#my_sites_more_div{
+	width: 100%;
+	height: 35px;
+	background: #A1A1A1;
+	color: #fff;
+	margin-top: 20px;
+}
+#my_sites_more_div div{
+	text-align: center;
+	padding-top: 6px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+}
+#apply_wiki_div{
+	padding-bottom: 50px;
+}
+#apply_wiki_div .ulListtc1 li{
+	list-style: none;
+}
+#apply_wiki_div .pop_div_title{
+	font-family: '微软雅黑';
+	font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+	width: 90%;
+	margin: 0 auto;
+}
+#apply_wiki_name .pop_div_body input{
+	width: 400px;
+	height: 25px;
+}
+#apply_wiki_abstract .pop_div_body textarea{
+	width: 400px;
+	height: 120px;
+}
+#wiki_name_error, #wiki_path_error{
+	margin-top: 5px;
+	color: red;
+}
+#wiki_new_path{
+	width: 100px;
+}
+#apply_wiki_div2{
+	display: none;
+}
+#apply_wiki_div2 #apply_wiki_succ .pop_div_title{
+	margin-top: 50px;
+	width: 290px;
+}
+#apply_wiki_div2 #apply_wiki_succ .pop_div_body{
+	width: 120px;
+}
+#apply_wiki_div2 .ulListtc1 li{
+	padding-left: 130px;
+}
+.training_right_ad{
+	margin-top: 30px;
+}
+/******************************首页 end******************************/
+
+/******************************类别管理******************************/
+#wiki_cat_list{
+	margin: 40px 0;
+	font-family: '宋体';
+}
+#wiki_cat_list li{
+	list-style: none;
+}
+#wiki_cat_list article{
+	background-color: #fff;
+	padding: 0;
+	margin-bottom: 100px;
+	margin-top: 20px;
+}
+#wiki_cat_list .ulList1 li .sCheck{
+	width: 0;
+}
+#wiki_cat_div h2{
+	font-family: '微软雅黑';
+	font-size: 20px;
+	text-decoration: none;
+	color: #333333;
+	font-weight: normal;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+#wiki_cat_div hr{
+	border-top: 1px solid #13AADF;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+#wiki_cat_div p{
+	font-family: '宋体';
+	font-size: 12px;
+	text-decoration: none;
+	color: #888;
+}
+#wiki_cat_div p a{
+	color: #888;
+}
+.wiki_create{
+	float: right;
+	width: 160px;
+	height: 40px;
+	background-color: #13AADF;
+	text-decoration: none;
+	color: #FFF;
+	position: relative;
+	top: -10px;
+}
+.wiki_create:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+.wiki_create div{
+	text-align: center;
+	padding-top: 8px;
+	font-size: 16px;
+	font-family: '微软雅黑';
+}
+.wiki_create:hover{
+	background: #0078B6;
+}
+.wiki_create div font{
+	font-size: 20px;
+	font-weight: bold;
+}
+#cate_list_null{
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+/******************************类别管理 end******************************/
+
+/******************************更新通知列表******************************/
+#notice_null{
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	position: relative;
+	top: -60px;
+}
+.notice_setting_page .page_action{
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 10px;
+	line-height: 22px;
+	margin-top: 10px;
+}
+.notice_setting_page{
+	margin-top: 20px;
+	margin-bottom: 100px;
+	border: 1px #CCCCCC solid;
+}
+.notice_setting_page tr:hover td{
+	background-color: #F7F7F7;
+}
+.notice_setting_page th {
+	height: 40px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: normal;
+	background-color: #666666;
+	text-align: center;
+	font-weight: normal;
+}
+.notice_setting_page td {
+	height: 40px;
+	font-family: '微软雅黑 Regular', '微软雅黑';
+	font-size: 14px;
+	color: #000;
+	line-height: normal;
+	background-color: #fff;
+	text-align: center;
+	font-weight: normal;
+}
+.notice_setting_page .action{
+	float: left;
+	width: 60px;
+	height: 25px;
+	background-color: #E4E4E4;
+	margin-right: 10px;
+}
+.notice_setting_page .action:hover{
+	background-color: #999999;
+}
+.notice_setting_page .action div{
+	padding-top: 2px;
+}
+#wiki_notice_action_div{
+	float: right;
+	position: relative;
+	top: -5px;
+}
+#wiki_notice_action_div .page_action{
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 10px;
+	height: 22px;
+	line-height: 22px;
+}
+.wiki_notice_title{
+	margin-top: 20px;
+	font-family: '微软雅黑';
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 15px;
+}
+#wiki_notice_setting{
+	background-color: #F2F2F2;
+	font-size: 12px;
+	color: #333333;
+	padding: 15px 10px;
+}
+#wiki_notice_setting p, #wiki_notice_preview p{
+	margin: 10px 0;
+}
+#wiki_notice_setting span{
+	font-family: '微软雅黑';
+	font-size: 14px;
+	color: #989898;
+}
+#wiki_notice_preview{
+	background-color: #F2F2F2;
+	padding: 15px 10px;
+	font-family: '宋体';
+	font-size: 14px;
+	color: #333333;
+}
+/******************************更新通知列表 end******************************/
+
+/******************************wiki page******************************/
+#page_main{
+	background-color: #f2f2f2;
+}
+#page_top{height: 25px;}
+#page_bottom{height: 30px;}
+#wiki_page_main{
+	font-family: '宋体';
+	background-color: #fff;
+	border: 1px solid #E4E4E4;
+	padding-bottom: 50px;
+	min-height: 600px;
+}
+#wiki_page_main a:hover{
+	text-decoration: none;
+}
+#page_left{
+	float: left;
+	width: 240px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#page_right{
+	float: left;
+	width: 780px;
+	padding-right: 20px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#page_left_cat{
+	border: 1px solid #E4E4E4;
+}
+#page_left_cat #page_cats{
+	border: none;
+}
+#cat_top{
+	font-family: '微软雅黑';
+	font-size: 16px;
+	font-weight: bold;
+	color: #333333;
+	margin-top: 5px;
+	border-bottom: 1px solid #11AAE3;
+	padding-bottom: 15px;
+}
+#cat_top div{
+	padding-right: 20px;
+}
+#cat_top a{
+	height: 28px;
+	padding-left: 20px;
+	position: relative;
+	top: 5px;
+}
+#page_cats{
+	border: 1px solid #F2F2F2;
+}
+#page_cats div{
+	height: 30px;
+	font-size: 14px;
+	color: #333333;
+	border-left: 8px solid #fff;
+	overflow: hidden;
+}
+#page_cats .level_0{
+	background-color: #F2F2F2;
+	border-left: 8px #F2F2F2 solid;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+#page_cats .level_1{
+	background-color: #F2F2F2;
+	border-left: 8px #F2F2F2 solid;
+}
+#page_cats .sRec{
+	cursor: pointer;
+}
+#page_left_cat #page_cats div{
+	cursor: auto;
+}
+#page_cats div:first-child{
+	border-top:none;
+}
+#page_cats span.sRec{
+	position: relative;
+	top: 8px;
+	background: url(../images/wiki/rec.png) no-repeat;
+	padding-left: 15px;
+}
+#page_cats .opened span.sRec{
+	background: url(../images/wiki/rec1.png) no-repeat;
+}
+#page_cats span.xRec{
+	position: relative;
+	top: 8px;
+	padding-left: 15px;
+}
+#page_cats span.sName{
+	position: relative;
+	top: 5px;
+}
+#page_cats .selected,#page_cats .selected:hover{
+	background-color: #13AADF;
+	color: #fff;
+	border-left: 8px #006699 solid;
+	border-top: none;
+	border-bottom:none;
+	text-indent:0;
+}
+#page_cats .selected a,#page_cats div.selected:hover a{
+	color: #fff;
+}
+#page_cats div:hover a{
+	color: #13AADF;
+	border-bottom: 1px #13AADF solid;
+}
+#page_cats div:hover{
+	color: #13AADF;
+	text-indent:8px;
+	border:none;
+}
+#page_cats .level_1 span.sRec, #page_cats .level_1 span.xRec{
+	margin-left: 12px;
+}
+#page_cats .level_2 span.sRec, #page_cats .level_2 span.xRec{
+	margin-left: 25px;
+}
+#page_cats .level_3 span.sRec, #page_cats .level_3 span.xRec{
+	margin-left: 35px;
+}
+#page_cats .level_2, #page_cats .level_3, #page_cats .level_4{
+	display: none;
+}
+#page_left_stats{
+	border: 1px solid #E4E4E4;
+	background-color: #f5f5f5;
+	margin-top: 30px;
+	padding: 15px;
+}
+#stats_top{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000333;
+	margin-bottom: 15px;
+}
+#stats_body p{
+	line-height: 21px;
+}
+#stats_body a{
+	font-size: 12px;
+	text-decoration: underline;
+	color: #3366CC;
+}
+#page_left_image{
+	margin-top: 30px;
+	border: none;
+}
+#page_action_div{
+	padding-bottom: 20px;
+}
+#page_action_div a:first-child{
+	margin-left: 0;
+}
+.page_action{
+    float: left;
+    padding: 0px 5px;
+    border: 1px solid #d4d4d4;
+    color: #2e2e2e;
+    background-color: #fff;
+    font-family: '微软雅黑';
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.page_action:hover{
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #13AADF;
+	text-decoration: none;
+}
+#page_title{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#page_title h1{
+	display: inline-block;
+	font-family: '微软雅黑';
+	font-size: 26px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 30px;
+}
+#page_title .page_action{
+}
+.page_dir{
+	margin-bottom: 15px;
+	border: 1px solid #E4E4E4;
+	float: left;
+	font-family: 'Microsoft YaHei';
+}
+.page_dir_left{
+	float: left;
+	width: 80px;
+}
+.page_dir_left div{
+	margin-top: 25px;
+	height: 35px;
+	background-color: #13AADF;
+	color: #fff;
+	font-family: '微软雅黑';
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 10px;
+}
+.page_dir_left p{
+	height: 15px;
+	border-right: 1px solid #E4E4E4;
+	position: relative;
+	left: 1px;
+}
+.page_dir_right{
+	float: left;
+	border-left: 1px solid #E4E4E4;
+	padding: 15px;
+	padding-right: 30px;
+}
+.page_dir_right a{
+	font-family: 'Microsoft YaHei';
+}
+.page_dir .top_num_span{
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
+}
+.dir_block{
+	width: 165px;
+}
+.newH2, .newh2{
+	font-size: 14px;
+	font-weight: normal;
+	color: #c0c0c0;
+	display: list-item;
+	list-style-type: none;
+	font-family: '宋体';
+}
+.newH3, .newh3{
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #c0c0c0;
+	display: list-item;
+	list-style-type: square;
+	margin: 5px 0;
+	margin-left: 30px;
+	font-family: '宋体';
+}
+.page_content{
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #333333;
+	line-height: 27px;
+	padding-bottom: 40px;
+	font-family: 'Microsoft YaHei';
+}
+.page_content a{
+	color: blue;
+}
+.page_content em{
+	font-style: italic;
+}
+.page_content ol,
+.page_content ul{
+	padding-left: 40px;
+}
+.page_content ul li{
+	list-style: disc;
+}
+.page_content ol li{
+	list-style: decimal;
+}
+.page_content li{
+	color: #000;
+}
+.page_content pre.code{
+	white-space: pre;
+}
+.page_content .table-wrap {
+	max-width: 100%;
+	overflow-x: auto;
+}
+.page_content table{
+	border-collapse: collapse;
+	border: 1px solid #CCC;
+	max-width: 100%!important;
+}
+.page_content table td, .page_content table th{
+	padding: 3px 8px;
+}
+.markdown_html{
+	font-family: 'Microsoft YaHei';
+}
+.markdown_html li{
+	color: #666;
+	list-style-position: outside;
+	margin: 0 0 0 1.5em;
+	padding: 0;
+}
+.markdown_html ul{
+	padding: 0 0 0 1em;
+}
+.markdown_html ol{
+	list-style: decimal outside none;
+	padding: 0 0 0 1em;
+}
+.markdown_html ol li{
+	list-style-type: decimal;
+}
+.markdown_html ul li{
+	list-style-type: disc;
+}
+.markdown_html ul ol li{
+	list-style-type: decimal;
+}
+.markdown_html pre code{
+	white-space: pre;
+	word-break: break-word;
+	word-wrap: break-word;
+}
+.markdown_html .syntaxhighlighter code{
+	box-shadow: none;
+}
+.page_content h1{
+	display: block;
+	font-size: 2em;
+	font-family: '微软雅黑';
+}
+.page_content h2{
+	font-size: 18px;
+	margin: 30px 0 6px 0;
+	border-bottom: 1px solid #DEDFE1;
+	clear: both;
+	line-height: 24px;
+	padding-bottom: 6px;
+	font-family: '微软雅黑';
+}
+.page_content h3{
+	font-family: '微软雅黑';
+	font-weight: bold;
+	font-size: 1.17em;
+	margin-bottom: 0;
+}
+#page_tags{
+	border-top: 1px solid #E4E4E4;
+	margin-top: 30px;
+	padding-top: 30px;
+	font-size: 14px;
+	color: #333333;
+}
+#page_tags .tag{
+	color: #888888;
+	font: normal 12px "Simsun";
+	display: inline-block;
+	line-height: 25px;
+	background-color: #e3e3e3;
+	padding: 0 10px;
+	margin: 5px 0;
+	text-decoration: none;
+}
+#to_index_div .topic_edit_image {
+	width: 250px;
+	height: 240px;
+	background-color: #EEEEEE;
+	border: 1px dotted #BBBBBB;
+	display: inline-block;
+	margin-left: 70px;
+}
+#to_index_div #post_image {
+	height: 188px;
+}
+#to_index_div .topic_edit_image_text {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: gray;
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+#to_index_div .topic_edit_image_file{
+	padding-top: 0px;
+	padding-left: 10px;
+	float: left;
+	margin-top: 5px;
+}
+#to_index_div #topic_edit_image #upload_loading{
+	position: relative;
+	padding-left: 40px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#to_index_div .topic_edit_image #upload_loading input{
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+#to_index_div .topic_edit_image .topic_edit_image_note{
+	margin-left: 20px;
+}
+#to_index_div .topic_edit_image #upload_loading span{
+	margin-left: 50px;
+}
+#wiki_page_lock_a{
+	width: 20px;
+	height: 20px;
+	background: url(../images/wiki/images_new.png) no-repeat -181px -350px;
+	float: right;
+	margin-right: 40px;
+}
+#wiki_page_unlock_a{
+	width: 20px;
+	height: 20px;
+	background: url(../images/wiki/images_new.png) no-repeat -229px -350px;
+	float: right;
+	margin-right: 40px;
+}
+/******************************wiki page end******************************/
+
+/******************************wiki site**********************************/
+#site_action{
+	margin-top: 10px;
+}
+#site_action .page_action{
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 3px;
+}
+#page_no_cats{
+}
+#page_no_cats .page_no_cats_title{
+	font-size: 14px;
+	text-align: center;
+	font-family: '微软雅黑';
+	color: #999999;
+}
+.page_no_cats_action{
+	font-size: 20px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 100px;
+}
+.page_no_cats_action a{
+	color: #13AADF;
+	text-decoration: underline;
+	position: relative;
+	top: -15px;
+	font-size: 20px;
+	font-family: '微软雅黑';
+	margin-bottom: 30px;
+}
+#site_null{
+	padding-left: 170px;
+	padding-top: 100px;
+}
+#site_null .page_no_cats_action a{
+	position: relative;
+}
+#site_top{
+	border-bottom: #13AADF 2px solid;
+}
+#site_top #right_action a:first-child{
+	margin-top: 3px;
+}
+#cat_site_null{
+	width: 260px;
+	margin: 250px auto;
+	margin-bottom: 0;
+}
+#site_title{
+	float: left;
+	height: 25px;
+	background-color: #14AADF;
+	border: 1px solid #1E8DC1;
+	border-bottom: none;
+	color: #fff;
+	font-family: '微软雅黑';
+	font-size: 20px;
+	font-weight: bold;
+	padding: 8px 10px;
+	padding-bottom: 2px;
+}
+#right_action{
+	float: right;
+}
+a#create_page_link{
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #13AADF;
+	text-decoration: none;
+	padding: 2px 10px;
+}
+span#create_page_link{
+	position: relative;
+	top: 12px;
+	left: 120px;
+}
+#create_page_link:hover{
+	background-color: #0078B6;
+}
+#create_page_link font{
+	font-size: 14px;
+	font-weight: bold;
+}
+#site_body{
+	margin-top: 5px;
+}
+#site_left{
+	float: left;
+	width: 500px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+#site_right{
+	float: left;
+	width: 250px;
+	margin-top: 15px;
+}
+#site_info span{
+	margin-right: 15px;
+}
+#site_info{
+	margin-top: 15px;
+}
+#site_abs{
+	font-size: 14px;
+	color: #333333;
+}
+.site_block_title{
+	margin-top: 25px;
+	margin-bottom: 12px;
+	font-family: '微软雅黑';
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+}
+#site_body .site_block ul{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+#site_body{
+	margin-bottom: 50px;
+}
+#site_body li{
+	list-style: square;
+	font-size: 14px;
+	margin: 10px 0;
+}
+#site_body ul{
+	padding-left: 18px;
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 15px;
+}
+#site_admins .site_block_title{
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: normal;
+}
+.topic_editor{
+	float: left;
+	margin: 5px;
+}
+#site_latest table{
+	font-size: 14px;
+	font-weight: normal;
+}
+#site_body .site_block li{
+	margin: 5px 0;
+}
+.block_content{
+	width: 380px;
+}
+.block_author{
+	width: 100px;
+	color: #CAC9C9;
+}
+.block_time{
+	width: 50px;
+	color: #CAC9C9;
+}
+.site_split{
+	border-bottom: 1px solid #CCCCCC;
+	margin: 12px 0;
+}
+#site_nav{
+	font-size: 14px;
+	color: #333333;
+}
+#site_order{
+	font-size: 12px;
+	color: #333333;
+	margin-top: 16px;
+}
+#site_order_hot, #site_order_split, #site_order_time, #site_order_recommend{
+	float: right;
+}
+#site_order_split{
+	margin: 0 10px;
+}
+#site_order .choosed{
+	font-weight: bold;
+}
+#site_list .view_td{
+	background: url(../images/wiki/pao.png) no-repeat 3px 4px;
+	padding-top: 10px;
+	vertical-align: top;
+}
+#site_list .title_td{
+	text-align: left;
+	padding-left: 10px;
+}
+#site_list table{
+	width: 100%;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 14px;
+}
+#site_list table tr{
+	height: 45px;
+}
+#site_list table .head_tr{
+	height: 30px;
+	font-size: 12px;
+}
+#site_list table .rec_tr td, #site_list table .rec_tr td a{
+	color: red;
+}
+#site_list table .first_normal_tr{
+	border-top: 2px solid #CCCCCC;
+}
+#site_list table td{
+	border-bottom: 1px dashed #CCCCCC;
+}
+#site_list table .head_tr td{
+	border-bottom: 1px solid #CCCCCC;
+}
+#site_list table tr:last-child td{
+	border-bottom: 1px solid #CCCCCC;
+}
+.list_num_span{
+	background: #ccc;
+	color: #fff;
+	height: 16px;
+	padding: 2px 5px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.top_num_span{
+	background: #13AADF;
+	color: #fff;
+	height: 16px;
+	padding: 2px 5px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.page_content .top_num_span{
+	padding: 3px 8px;
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
+}
+.gte_10{
+	padding: 2px;
+}
+.page_content .gte_10{
+	padding: 4px 6px;
+}
+#site_hot ul{
+	padding-left: 0;
+}
+#site_hot li:nth-child(10) .list_num_span{
+	padding: 2px;
+}
+#site_hot li{
+	list-style: none;
+}
+#site_null .page_no_cats_action{
+	float: right;
+	position: relative;
+	top: 80px;
+	left: -150px;
+}
+#site_admins_list{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;
+}
+.topic_editor_group{
+	display: none;
+	padding-left: 20px;
+}
+#site_admins_list_content .show{
+	display: block;
+}
+#site_admins_list_content{
+	
+}
+#site_scroll_manage a{
+	display: block;
+	width: 20px;
+	height: 60px;
+	background: #000;
+	filter: Alpha(opacity=50);
+	opacity: 0.5;
+	text-align: center;
+	line-height: 60px;
+	font-size: 20px;
+	color: #fff;
+	font-family: simSun;
+	font-weight: 100;
+	cursor: pointer;
+	z-index: 3;
+	text-decoration: none;
+	position: absolute;
+	top: 5px;
+}
+#site_scroll_left{
+}
+#site_scroll_right{
+	left: 230px;
+}
+/******************************wiki site end******************************/
+
+/******************************wiki site list******************************/
+#wiki_title{
+	font-family: '微软雅黑';
+	font-size: 20px;
+	font-weight: bold;
+	color: #222222;
+	float: left;
+	margin-bottom: 15px;
+}
+#wiki_order{
+	font-size: 12px;
+	color: #333333;
+	float: right;
+}
+#wiki_order .choosed{
+	font-weight: bold;
+}
+.wiki_block{
+	border-top: 1px dashed #CCCCCC;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.wiki_block:first-child{
+	border-top: none;
+	padding-top: 5px;
+}
+.wiki_image{
+	float: left;
+	margin-right: 20px;
+	width: 160px;
+}
+.wiki_body{
+	width: 540px;
+	float: left;
+}
+.wiki_title{
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.wiki_editor{
+	margin-top: 10px;
+	font-family: '微软雅黑';
+	font-size: 12px;
+	color: #333333;
+}
+.wiki_editor a{
+	color: #13AADF;
+	text-decoration: none;
+}
+.wiki_abs{
+	margin-top: 10px;
+	font-size: 12px;
+	color: #808080;
+}
+.wiki_info{
+	margin-top: 10px;
+}
+.wiki_info span{
+	margin-right: 15px;
+}
+.wiki_block_title{
+	font-family: '微软雅黑';
+	font-size: 20px;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 15px;
+}
+.wiki_side_block{
+	border-bottom: 1px solid #CCCCCC;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.wiki_side_block ul{
+	padding-left: 5px;
+}
+.wiki_side_block li{
+	font-size: 14px;
+	margin: 10px 0;
+	list-style: none;
+}
+.wiki_side_block li:last-child .list_num_span{
+	padding: 2px;
+}
+#index_hotest li:last-child .list_num_span{
+	padding: 2px;
+}
+.yellow_pagination .pagination span.current{
+	background-color: #13aadf;
+	border: 1px solid #13aadf;
+}
+.yellow_pagination .pagination a:hover{
+	background-color: #13aadf;
+	border: 1px solid #13aadf;
+}
+.li_span_right{
+	float: right;
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #CAC9C9;
+}
+.page_cat_list{
+	margin-bottom: 5px;
+	position: relative;
+	top: -5px;
+}
+.page_cat_list a{
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #1E8DC1;
+}
+#wiki_page_new li{
+	list-style: square;
+	margin-left: 15px;
+}
+/******************************wiki site list end**************************/
+
+/******************************wiki search******************************/
+#search_bar{
+	height: 80px;
+}
+#search_bar .searchBox{
+	float: left;
+	margin-top: 0;
+	background: none;
+	width: 485px;
+}
+#search_bar #kp_search_input{
+	width: 448px;
+}
+#search_bar #search_submit{
+	float: left;
+	margin-top: 0;
+}
+#search_title{
+	font-family: '微软雅黑';
+	font-size: 20px;
+	font-weight: bold;
+	color: #222222;
+}
+#search_result{
+	font-size: 14px;
+	font-weight: normal;
+	color: #333333;
+}
+#search_action #wiki_order{
+	float: left;
+}
+#search_action #wiki_order span{
+	float: left;
+}
+#wiki_auth{
+	float: right;
+}
+#wiki_auth a{
+	font-size: 12px;
+	text-decoration: underline;
+	color: #1E8DC1;
+}
+.wiki_search_page .wiki_title{
+	font-weight: normal;
+	text-decoration: underline;
+	color: #333333;
+	margin-bottom: 10px;
+}
+.wiki_search_page .wiki_body{
+	width: 720px;
+}
+.wiki_search_page .no_authority .wiki_body{
+	background: #CCC;
+}
+.wiki_search_page .wiki_site{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+.wiki_search_page .wiki_cats a{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	font-weight: normal;
+	color: #1E8DC1;
+}
+.wiki_search_page .wiki_info{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+.wiki_author_link{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	font-weight: normal;
+	color: #1E8DC1;
+	margin-right: 15px;
+}
+.wiki_search_page #wiki_right{
+	border-left: 1px solid #CCC;
+	padding-left: 20px;
+	height: 450px;
+}
+.wiki_search_page .wiki_block em{
+	font-style: normal;
+	color: #FF0000;
+}
+#search_null{
+	width: 180px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+/******************************wiki search end**************************/
+
+/******************************wiki history*****************************/
+#history_title{
+	margin-top: 30px;
+}
+#history_title .up, #history_title .under{
+	height: 30px;
+}
+#history_title .under, #history_title .up{
+	float: left;
+}
+#history_title .under{
+	border-bottom: 1px solid #13AADF;
+}
+#history_title #under_1{
+	width: 10px;
+}
+#history_title #under_2{
+	width: 998px;
+}
+#history_title .up{
+	width: 90px;
+	border: 1px solid #13AADF;
+	border-bottom: none;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+}
+#history_title .up div{
+	text-align: center;
+	height: auto;
+	padding-top: 5px;
+}
+#history_name{
+	margin-top: 20px;
+}
+#history_name span{
+	font-size: 13px;
+	color: #333333;
+}
+#history_name #history_page_title{
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: '微软雅黑';
+}
+#history_table{
+	 margin-top: 20px;
+	 font-size: 14px;
+}
+.diff_table{
+	width: 100%;
+}
+.diff_table td{
+	text-align: center;
+	border-bottom: 1px #ccc dashed;
+	height: 30px;
+}
+.diff_table tr:first-child td, #history_table tr:last-child td{
+	border-bottom: 1px #ccc solid;
+}
+.diff_table td.align_left{
+	text-align: left;
+}
+.diff_table .title_tr{
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333;
+	height: 40px;
+	font-family: '微软雅黑';
+}
+.diff_table a{
+	color: #0066FF;
+}
+.go_diff{
+	color: #0066FF;
+	text-decoration: underline;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: '微软雅黑';
+}
+#history_tail{
+	margin-top: 20px;
+	margin-bottom: 90px;
+}
+#history_tail .go_diff{
+	margin-left: 34px;
+}
+#diff_main #wiki_cat_list{
+	margin: 40px auto;
+	margin-bottom: 20px;
+}
+#diff_main #wiki_cat_div h2{
+	font-weight: bold;
+	margin-bottom: 20px;
+} 
+#diff_div{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+#diff_div .diff_table td{
+	border-bottom: 1px #ccc solid;
+}
+#diff_left{
+	float: left;
+	margin-right: 30px;
+}
+#diff_right{
+	float: left;
+}
+#diff_div .diff_content{
+	margin-top: 25px;
+	border: 1px solid #CCC;
+}
+#diff_div .page_content{
+	border-bottom: none;
+}
+#diff_div .only_b{
+	color: #0066FF;
+	background-color: #ddf;
+}
+#diff_div .only_a{
+	color: #FF0000;
+	background-color: #fdd;
+}
+.diff_color_div{
+	width: 20px;
+	height: 20px;
+}
+#diff_color_left{
+	background-color: #DDDDFF;
+}
+#diff_color_right{
+	background-color: #FFDDDD;
+}
+/******************************wiki history end*************************/
+
+/******************************wiki background*************************/
+.bg_div{
+	position: absolute;
+	background: #000;
+	filter: Alpha(opacity=50);
+	opacity: 0.7;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+.bg_show_div{
+	background-color: #fff;
+	position: absolute;
+	z-index: 1100;
+	width: 380px;
+	border: 1px solid rgba(0, 0, 0, .45);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+	display: none;
+}
+.bg_show_tip{
+	padding: 10px;
+	font-family: '微软雅黑';
+	color: #333;
+}
+.bg_show_title{
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.bg_show_text{
+	font-size: 14px;
+}
+.bg_show_action{
+	border-top: 1px solid #ccc;
+	padding: 6px 7px 6px 8px;
+	background-color: #f2f2f2;
+}
+.bg_show_action span{
+	position: relative;
+	top: 3px;
+}
+.bg_show_action a{
+	float: right;
+	font-size: 13px;
+	line-height: 22px;
+	background: #13AADF;
+	color: #fff;
+	padding: 2px 20px;
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+	-webkit-box-sizing: content-box;
+}
+.bg_show_action a:hover{
+	text-decoration: none;
+}
+.bg_show_hide{
+	float: right;
+	position: relative;
+}
+.bg_show_rec{
+	position: absolute;
+	width: 10px;
+	height: 20px;
+}
+.left_rec{
+	top: 30px;
+	left: -9px;
+	background: url(../images/wiki/fb.png) no-repeat -60px -392px;
+}
+.right_rec{
+	top: 20px;
+	left: 10px;
+	background: url(../images/wiki/fb.png) no-repeat -70px -392px;
+}
+#sideB2{
+	background: url(../images/wiki/guide.png) no-repeat -1px 0;
+}
+#sideB2:hover{
+	background: url(../images/wiki/guide-blue.png) no-repeat -1px 0;
+}
+/******************************wiki background end*************************/
+
+#guide-mask, #guide{
+	display: none;
+}
+#guide .prev{
+	display: none;
+}
+#guide .pagination .nav{
+	cursor: auto;
+}
+
+#wiki_tip_div{
+	display: none;
+}
+#wiki_tip_div .pop_div_body{
+	font-family: '微软雅黑';
+	font-size: 12px;
+	text-align: center;
+}
+#div_blue_center{
+	color: #14aadf;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#to_pdf_div{
+	width: 350px;
+}
+#to_pdf_div img{
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+}
+#to_pdf_div .h3Title{
+	padding-left: 12px;
+}
+
+#to_pdf_div .pop_div_body{
+	margin-top: 35px;
+	margin-bottom: 25px;
+	margin-right: 0;
+	margin-left: 30px;
+	font-family: '微软雅黑';
+	font-size: 14px;
+}
+#to_pdf_div .pop_div_block{
+	margin-left: 0;
+}
+#to_pdf_fail_div{
+	height: 10px;
+}
+#to_pdf_fail_line2 {
+	margin-left: 37px;
+}
+#to_pdf_fail_line2_action{
+	margin-top: 20px;
+}
+#to_pdf_fail_line2_action a{
+	width: 100px;
+	top: 10px;
+	left: 150px;
+	float: left;
+}
+
+#wiki_trash_title{
+	margin-bottom: 30px;
+	border: none;
+}
+#wiki_trash_title h2{
+	color: #333;
+	font-size: 24px;
+	font-family: '微软雅黑';
+}
+#wiki_trash_search{
+	width: 450px;
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+#wiki_trash_search span{
+	font-size: 14px;
+}
+#wiki_trash_search input{
+	width: 300px;
+	height: 20px;
+}
+#wiki_trash_search a{
+	float: right;
+	padding: 0px 20px;
+	font-size: 14px;
+	padding-bottom: 2px;
+	line-height: 20px;
+}
+.notice_setting_page .revert{
+	margin-left: 45px;
+}
+#trash_window{
+	padding-bottom: 40px;
+	width: 380px;
+}
+#trash_window .pop_div_block{
+	font-size: 14px;
+	font-family: '微软雅黑';
+	text-align: center;
+	margin-top: 40px;
+}
+#trash_window .ulListtc1 li{
+	padding: 0 0 0 80px;
+}
+
+.statis_div #wiki_cat_div h2{
+	margin-bottom: 25px;
+}
+.statis_div .notice_tr{
+	border-bottom: 1px solid #ccc;
+}
+#statis_tool{
+	font-size: 14px;
+}
+#statis_tool select{
+	height: 25px;
+	width: 80px;
+}
+#statis_tool input{
+	margin-left: 10px;
+}
+.statis_search{
+	background: #13AAdf;
+	margin-left: 10px;
+	color: #fff;
+	font-family: '微软雅黑';
+	font-size: 14px;
+	padding: 5px 20px;
+}
+.statis_search:hover{
+	background: #0078B6;
+	color: #fff;
+	text-decoration: none;
+}
+.statis_info{
+	margin: 20px 0;
+	font-size: 14px;
+}
+#more_viewing_list{
+	max-height: 200px;
+	padding: 10px;
+}
+.view_more{
+	background: url(../images/km_index/icon_more.png) no-repeat right 3px;
+	margin-left: 5px;
+	padding-right: 15px;
+	text-decoration: none;
+}
+.view_more:hover{
+	text-decoration: none;
+}
+
+
+#wiki_attachment .wiki_main{
+	padding: 20px;
+	min-height: 150px;
+}
+#attachment_cat, #attachment_cat a{
+	color: #888;
+}
+#attachment_info{
+	border-bottom: 1px solid #e5e5e5;
+	padding-bottom: 10px;
+}
+#attachment_info .operate_options{
+	margin: 0;
+}
+#attachment_info .operate_options li{
+	margin: 0;
+	padding: 0;
+}
+#attachmentDownload{
+	margin-bottom: 150px;
+}
+#attachmentDeleted{
+	margin: 50px;
+}
+#articleAttachments .att_del a{
+	float: none;
+}
+
+.diff_content .page_content span{
+	white-space: normal;
+}
+
+#pop_line1 a{color: #14aadf;}
+#pop_line2{margin: 10px 0;}
+#pop_line3 a{color: #14aadf;}
+
+#articleAttachments .attachmentTitle a img{
+	margin-left: 15px;
+}
+#articleAttachments .attachmentTitle{
+	line-height: 16px;
+}
+
+.leftcontain .leftcon .con .artinf .reddboder{
+	display: none;
+	margin-left: 26px;
+	margin-bottom: 15px;
+	padding: 0 5px;
+	border: 1px red dashed;
+	width: 712px;
+	height: 30px;
+	font-size: 12px;
+	color: #666;
+}
+#wiki_auth_div{
+	width: 380px;
+	padding-bottom: 40px;
+}
+#wiki_auth_div1{
+	margin-top: 30px;
+}
+#wiki_auth_div1 .pop_div_block {
+  font-size: 14px;
+  font-family: '微软雅黑';
+  text-align: center;
+  margin-top: 40px;
+}
+#wiki_auth_div2{display: none}
+.tipsbox.success{
+	border: 1px solid #96ddf6;
+  	background: #ddf4fc;
+  	color: #39beed;
+  	padding: 8px;
+  	margin: 50px 20px;
+}
+
+#apply_wiki_tip_div{
+    font-size:14px;
+}
+#apply_wiki_tip_div .apply_pop_div_body{
+    padding: 25px 15px 10px 15px;
+}
+#apply_wiki_tip_div .apply_wiki_name{
+    color:blue;
+}
+#apply_wiki_tip_div .apply_tips{
+    height: 38px;
+    margin: 15px 20px 20px 20px;
+    line-height: 38px;
+}
+#apply_wiki_tip_div .apply_tips i {margin-right: 10px;}
+#apply_wiki_tip_div .apply_tips .apply-tips-success{
+    padding-left: 10px;
+    border:1px solid #96ddf6;
+    background:#ddf4fc;
+    color:#39beed
+}
+#apply_wiki_tip_div .apply_tips .apply-tips-error{
+    padding-left: 10px;
+    border: 1px solid #edc4bd;
+    background: #fdfaf9;
+    color: #d77c6d;
+}
+#apply_wiki_tip_div .apply_btns{
+    text-align:center;
+}
+#apply_wiki_tip_div .apply_btns a{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    background-color: #cac9c9;
+    line-height: 40px;
+    text-align:center;
+    text-decoration: none;
+    cursor: pointer;
+}
+#apply_wiki_tip_div .apply_btns a.apply_btn{
+    background-color: #14AADF;
+    color:#fff;
+}
+#apply_wiki_tip_div .apply_btns a.apply_btn:hover{
+    background-color: #0078B6;
+}
+#apply_wiki_tip_div .apply_btns a.cancel_apply_btn{
+    margin-left: 40px;
+}
+#apply_wiki_tip_div .apply_btns a.cancel_apply_btn:hover{
+    background-color: #ccc;
+}
+
+.page_qas{
+    border-top: 1px solid #E4E4E4;
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.page_qas_title_l{
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.page_qas_title_l img{
+    float: left;
+    height: 28px;
+    margin-right: 10px;
+}
+.page_qas_title_r{float: right}
+a.page_qa_post{
+   display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: #14AADF;
+    color:#fff;
+    line-height: 30px;
+    text-align:center;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.page_qa_post:hover{
+    background-color: #0078B6;
+}
+.page_qas_item_info{
+    float: left;
+    width: 120px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.page_qas_item_name {
+    line-height: 30px;
+    padding: 8px 0;
+}
+.page_qas_item_name a{
+    color: #13AADF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.page_qas_item_infos{
+    font-size:12px;
+    color: #999;
+}
+.page_qas_item{
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.page_qas_item_answer{
+    margin-right: 0;
+    width: 80px;
+}
+.page_qas_more a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.page_qas_more a:hover, .page_qas_item_name a:hover{
+    color:#0078B6;
+}
+.page_qas_more a span{font-size: 10px;}
+.rela_qas_blank{text-align: center;}
+.rela_qas_blank img{width: 250px; margin-left: 60px;}
+.rela_blank_tips{color:#999; margin-bottom: 20px;}
+/*popo share start*/
+.sidePopoS{position: relative;}
+
+.sidePopoS .popo_refe {
+    background: url(/webapps/static/images/home/icon-popo-share.png) no-repeat 0 5px;
+    background-size: 14px 14px;
+    width: 14px;
+}
+.sidePopoS:hover .popo_refe {
+    background: url(/webapps/static/images/home/icon-popo-share-white.png) no-repeat 0 5px;
+    background-size: 14px 14px;
+    width: 14px;
+}
+
+.side_qrcode_wrap{
+    text-align: center;
+    position: absolute;
+    display: none;
+    left: -38px;
+    top: 0px;
+    width: 160px;
+    padding-top: 35px;
+    z-index: 999;
+}
+.side_qrcode_wrap i.triangle{
+    position: absolute;
+    top: 28px;
+    left: 78px;
+    width: 12px;
+    height: 8px;
+    background: url(/webapps/static/images/home/icon-arrow-white.png) no-repeat scroll 0px 0px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+
+.side_qrcode_content{
+    height: 180px;
+    width: 160px;
+    border-top: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    background-color: #fff;
+    color: #666;
+    border-radius: 3px;
+    box-shadow: -1px 1px 3px #BFBEBF;
+}
+.side_qrcode_wrap .side_qrcode_content #side_qrcode{
+    padding: 0 20px;
+    height: 120px;
+}
+.side_qrcode_header{
+    height: 40px;
+    line-height: 48px;
+    font-size:12px;
+    padding: 0 20px;
+}
+.side_qrcode_header i.icon-popo-grey{
+    background: url(/webapps/static/images/home/icon-popo-share.png) no-repeat 0px 0;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    margin: 15px 15px 0 0;
+    float: left;
+}
+.side_qrcode_footer{
+    height: 37px;
+    line-height: 30px;
+    font-size:11px;
+}
+.sidePopoS:hover .side_qrcode_wrap{display: block;}
+/*popo share end*/
